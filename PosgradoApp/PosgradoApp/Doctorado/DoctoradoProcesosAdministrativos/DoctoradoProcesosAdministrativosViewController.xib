@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MaestriaProcesosAdministrativosViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="859"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sZs-5d-VNX">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="859"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tNS-AZ-lUi">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="859"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Procesos Administrativos" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="exK-uR-nYt">
+                                    <rect key="frame" x="8" y="16" width="233" height="23"/>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sPb-dd-Iqp">
+                                    <rect key="frame" x="8" y="69" width="359" height="284.5"/>
+                                    <mutableString key="text">La parte administrativa del DIFI (Tradicional)  se trata directamente en el Departaemnto de Ecolar y de Archivo de la FCFM en los horarios de 8:00 a 19:00 horas o bien en el teléfono 83 29 40 30 ext. 6122 con:
+
+ Srita. Lalis Lara, Secretaria matutina de apoyo al Posgrado de la FCFM.
+ Srita. Rosy Sánchez, Secretaria vespertina de apoyo al Posgrado de la FCFM.
+
+La parte académica se trata en la Coordinación del Posgrado en Ingeniería Físico Industrial.</mutableString>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Beca CONACyT/ Intercambios nacionales e internacionales" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xX1-bP-tt9">
+                                    <rect key="frame" x="8" y="369.5" width="359" height="45.5"/>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ifn-Hr-Oi6">
+                                    <rect key="frame" x="8" y="431" width="359" height="203"/>
+                                    <string key="text">Es otorgada a los estudiantes de tiempo completo debido a que nuestros Programas en Ingeniería Física Industrial pertenecen al Programa Nacional de Posgrados de Calidad (PNPC). Es brindada por la duración del programa sin posibilidad de prorroga. Los estudiantes que cuentan con esta beca tiene a su vez, la posibilidad de realizar estancias Nacionales e Internacionales con un apoyo adicional. </string>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="conacyt" translatesAutoresizingMaskIntoConstraints="NO" id="v0Y-9n-QwI">
+                                    <rect key="frame" x="-126.5" y="664" width="627" height="123"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="123" id="tTF-77-zaW"/>
+                                    </constraints>
+                                </imageView>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstItem="xX1-bP-tt9" firstAttribute="top" secondItem="sPb-dd-Iqp" secondAttribute="bottom" constant="16" id="1RC-2K-fIf"/>
+                                <constraint firstItem="exK-uR-nYt" firstAttribute="leading" secondItem="tNS-AZ-lUi" secondAttribute="leading" constant="8" id="23J-W1-nNq"/>
+                                <constraint firstItem="Ifn-Hr-Oi6" firstAttribute="leading" secondItem="tNS-AZ-lUi" secondAttribute="leading" constant="8" id="3fq-Ui-GA3"/>
+                                <constraint firstItem="exK-uR-nYt" firstAttribute="top" secondItem="tNS-AZ-lUi" secondAttribute="top" constant="16" id="6Ot-m0-ZPX"/>
+                                <constraint firstItem="v0Y-9n-QwI" firstAttribute="top" secondItem="Ifn-Hr-Oi6" secondAttribute="bottom" constant="30" id="9hz-fY-SXQ"/>
+                                <constraint firstAttribute="trailing" secondItem="xX1-bP-tt9" secondAttribute="trailing" constant="8" id="LGt-zB-sZq"/>
+                                <constraint firstItem="sPb-dd-Iqp" firstAttribute="top" secondItem="exK-uR-nYt" secondAttribute="bottom" constant="30" id="QpT-5i-AvL"/>
+                                <constraint firstAttribute="trailing" secondItem="Ifn-Hr-Oi6" secondAttribute="trailing" constant="8" id="RZd-cc-khi"/>
+                                <constraint firstAttribute="trailing" secondItem="sPb-dd-Iqp" secondAttribute="trailing" constant="8" id="TmQ-or-aVH"/>
+                                <constraint firstItem="xX1-bP-tt9" firstAttribute="leading" secondItem="tNS-AZ-lUi" secondAttribute="leading" constant="8" id="UeU-fk-qyw"/>
+                                <constraint firstItem="Ifn-Hr-Oi6" firstAttribute="top" secondItem="xX1-bP-tt9" secondAttribute="bottom" constant="16" id="pg9-2f-PD8"/>
+                                <constraint firstItem="v0Y-9n-QwI" firstAttribute="centerX" secondItem="tNS-AZ-lUi" secondAttribute="centerX" id="q2g-Xp-39V"/>
+                                <constraint firstItem="sPb-dd-Iqp" firstAttribute="leading" secondItem="tNS-AZ-lUi" secondAttribute="leading" constant="8" id="y2B-HR-hFS"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="tNS-AZ-lUi" firstAttribute="leading" secondItem="sZs-5d-VNX" secondAttribute="leading" id="1nj-Ks-n9Y"/>
+                        <constraint firstItem="tNS-AZ-lUi" firstAttribute="top" secondItem="sZs-5d-VNX" secondAttribute="top" id="25q-VT-mlE"/>
+                        <constraint firstAttribute="bottom" secondItem="tNS-AZ-lUi" secondAttribute="bottom" constant="200" id="WGH-X7-t1O"/>
+                        <constraint firstAttribute="trailing" secondItem="tNS-AZ-lUi" secondAttribute="trailing" id="bUP-mG-sbO"/>
+                    </constraints>
+                </scrollView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="sZs-5d-VNX" secondAttribute="bottom" id="K0Y-kd-Cfh"/>
+                <constraint firstItem="sZs-5d-VNX" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="RXc-Hd-WSF"/>
+                <constraint firstItem="tNS-AZ-lUi" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" id="VSI-BZ-kzu"/>
+                <constraint firstItem="tNS-AZ-lUi" firstAttribute="height" secondItem="i5M-Pr-FkT" secondAttribute="height" priority="750" id="a56-EV-JhG"/>
+                <constraint firstAttribute="trailing" secondItem="sZs-5d-VNX" secondAttribute="trailing" id="csH-PZ-BBp"/>
+                <constraint firstItem="sZs-5d-VNX" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="lPs-xq-q4J"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="26.5" y="147.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="conacyt" width="627" height="401"/>
+    </resources>
+</document>

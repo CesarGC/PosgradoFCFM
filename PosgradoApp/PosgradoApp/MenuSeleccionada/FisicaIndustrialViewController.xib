@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FisicaIndustrialViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="1163"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0OP-dt-BHx">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="1163"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5EL-DU-VAY">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="1163"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ing. Física Industrial" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h0J-b3-Ja3">
+                                    <rect key="frame" x="8" y="16" width="151.5" height="21"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="maestria_fisica" translatesAutoresizingMaskIntoConstraints="NO" id="s8o-ge-W30">
+                                    <rect key="frame" x="8" y="45" width="359" height="239.5"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" secondItem="s8o-ge-W30" secondAttribute="height" multiplier="3:2" id="3Wh-hY-dhx"/>
+                                    </constraints>
+                                </imageView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yh8-HY-t6Q">
+                                    <rect key="frame" x="8" y="304" width="359" height="325"/>
+                                    <string key="text">Misión y visión
+La misión del Maestría en Ingeniería Física Industrial es la de preparar especialistas capacitados y emprendedores capaces de desarrollar proyectos basado en tecnología y contribuir con ello en el mejoramiento de las condiciones de la comunidad general.
+ 
+La visión del Maestría en Ingeniería Física Industrial es la de un programa orientado a investigación de frontera, con una planta docente y de investigación reconocida internacionalmente por su producción científica y tecnológica, y por la preparación de recursos humanos en investigación y desarrollo de calidad mundial.</string>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cualidades deseables en el candidato a ingresar a este programa de Posgrado." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cxf-Uv-gV2">
+                                    <rect key="frame" x="8" y="649" width="359" height="41"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v69-8f-hMF">
+                                    <rect key="frame" x="8" y="698" width="82" height="30"/>
+                                    <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                    <state key="normal" title="  Aspirante  ">
+                                        <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                        <color key="titleShadowColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="enviarAspirante:" destination="-1" eventType="touchUpInside" id="E8j-nn-3Nm"/>
+                                    </connections>
+                                </button>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lhp-pU-hjx">
+                                    <rect key="frame" x="8" y="748" width="359" height="81.5"/>
+                                    <string key="text">Con base en el objetivo, el perfil profesional de este programa, se especifica en un conjunto básico de conocimientos y habilidades que el alumno adquirirá.</string>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xpd-De-tFf">
+                                    <rect key="frame" x="8" y="837.5" width="81" height="30"/>
+                                    <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                    <state key="normal" title="  Egresado  ">
+                                        <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                        <color key="titleShadowColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="enviarEgresado:" destination="-1" eventType="touchUpInside" id="YR6-Kg-QMi"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstItem="v69-8f-hMF" firstAttribute="top" secondItem="cxf-Uv-gV2" secondAttribute="bottom" constant="8" id="0Ia-AX-bS5"/>
+                                <constraint firstItem="xpd-De-tFf" firstAttribute="leading" secondItem="5EL-DU-VAY" secondAttribute="leading" constant="8" id="1fz-w4-3y3"/>
+                                <constraint firstItem="cxf-Uv-gV2" firstAttribute="top" secondItem="yh8-HY-t6Q" secondAttribute="bottom" constant="20" id="591-dF-K58"/>
+                                <constraint firstItem="s8o-ge-W30" firstAttribute="top" secondItem="h0J-b3-Ja3" secondAttribute="bottom" constant="8" id="5Du-yr-YKu"/>
+                                <constraint firstAttribute="trailing" secondItem="lhp-pU-hjx" secondAttribute="trailing" constant="8" id="7WU-rP-X0h"/>
+                                <constraint firstItem="cxf-Uv-gV2" firstAttribute="leading" secondItem="5EL-DU-VAY" secondAttribute="leading" constant="8" id="AJ7-9T-u8W"/>
+                                <constraint firstItem="lhp-pU-hjx" firstAttribute="top" secondItem="v69-8f-hMF" secondAttribute="bottom" constant="20" id="CUH-8W-w8f"/>
+                                <constraint firstItem="h0J-b3-Ja3" firstAttribute="top" secondItem="5EL-DU-VAY" secondAttribute="top" constant="16" id="H2Y-Fv-bK0"/>
+                                <constraint firstItem="v69-8f-hMF" firstAttribute="leading" secondItem="5EL-DU-VAY" secondAttribute="leading" constant="8" id="HQY-48-df8"/>
+                                <constraint firstItem="s8o-ge-W30" firstAttribute="centerX" secondItem="5EL-DU-VAY" secondAttribute="centerX" id="Mkv-8v-3ol"/>
+                                <constraint firstItem="s8o-ge-W30" firstAttribute="leading" secondItem="5EL-DU-VAY" secondAttribute="leading" constant="8" id="N8D-1E-khS"/>
+                                <constraint firstItem="lhp-pU-hjx" firstAttribute="leading" secondItem="5EL-DU-VAY" secondAttribute="leading" constant="8" id="QRw-vA-H3C"/>
+                                <constraint firstItem="xpd-De-tFf" firstAttribute="top" secondItem="lhp-pU-hjx" secondAttribute="bottom" constant="8" id="VIn-OB-94p"/>
+                                <constraint firstItem="h0J-b3-Ja3" firstAttribute="leading" secondItem="5EL-DU-VAY" secondAttribute="leading" constant="8" id="dvg-Gq-OmN"/>
+                                <constraint firstAttribute="trailing" secondItem="cxf-Uv-gV2" secondAttribute="trailing" constant="8" id="eHt-Gi-xKz"/>
+                                <constraint firstItem="yh8-HY-t6Q" firstAttribute="leading" secondItem="5EL-DU-VAY" secondAttribute="leading" constant="8" id="l6t-tc-0Q0"/>
+                                <constraint firstAttribute="trailing" secondItem="yh8-HY-t6Q" secondAttribute="trailing" constant="8" id="qr2-dh-oFj"/>
+                                <constraint firstItem="yh8-HY-t6Q" firstAttribute="top" secondItem="s8o-ge-W30" secondAttribute="bottom" constant="20" id="rLN-ls-a6M"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="5EL-DU-VAY" firstAttribute="leading" secondItem="0OP-dt-BHx" secondAttribute="leading" id="INb-Gv-okf"/>
+                        <constraint firstAttribute="trailing" secondItem="5EL-DU-VAY" secondAttribute="trailing" id="Jvd-SE-hbW"/>
+                        <constraint firstItem="5EL-DU-VAY" firstAttribute="top" secondItem="0OP-dt-BHx" secondAttribute="top" id="R6F-dp-Bzm"/>
+                        <constraint firstAttribute="bottom" secondItem="5EL-DU-VAY" secondAttribute="bottom" constant="500" id="SVd-SY-tZD"/>
+                    </constraints>
+                </scrollView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="5EL-DU-VAY" firstAttribute="height" secondItem="i5M-Pr-FkT" secondAttribute="height" priority="750" id="2Oq-yq-2tu"/>
+                <constraint firstAttribute="bottom" secondItem="0OP-dt-BHx" secondAttribute="bottom" id="AwV-A8-VJi"/>
+                <constraint firstAttribute="trailing" secondItem="0OP-dt-BHx" secondAttribute="trailing" id="KkP-23-5LM"/>
+                <constraint firstItem="5EL-DU-VAY" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" id="Vv1-dN-5Hk"/>
+                <constraint firstItem="0OP-dt-BHx" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="YJo-e6-t1W"/>
+                <constraint firstItem="0OP-dt-BHx" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="YNy-Ou-KzB"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="32.5" y="479.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="maestria_fisica" width="265" height="165"/>
+    </resources>
+</document>

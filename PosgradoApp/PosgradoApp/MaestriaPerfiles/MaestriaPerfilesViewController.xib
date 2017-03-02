@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MaestriaPerfilesViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Perfiles" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WFw-v5-V5k">
+                    <rect key="frame" x="8" y="16" width="70" height="23"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Perfil de ingreso" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j1K-Gz-WWT">
+                    <rect key="frame" x="16" y="55" width="138" height="21"/>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ck8-QQ-4hS">
+                    <rect key="frame" x="16" y="92" width="343" height="122"/>
+                    <string key="text">- Poseer conocimientos y habilidades en matemáticas y física, las cuales serán evaluadas mediante un examen escrito.
+- Poseer actitudes de interés por la investigación científica y desarrollo de nuevas tecnologías. </string>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Perfil del egresado" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bCh-CS-gFP">
+                    <rect key="frame" x="16" y="230" width="158.5" height="21"/>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ONJ-et-Tnw">
+                    <rect key="frame" x="16" y="267" width="343" height="264"/>
+                    <string key="text">- Desarrollará trabajos de investigación en física aplicada.
+- Propondrá  proyectos de investigación en física básica.
+- Participará en la solución de problemas de la producción en el sector industrial.
+- Trabajará en grupos de investigación en la industria.
+- Desempeñará labores docentes de alto nivel en el área de la ingeniería física que haya seleccionado. 
+- Continuará estudios de doctorado en física o ingeniería física.</string>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="bCh-CS-gFP" firstAttribute="top" secondItem="ck8-QQ-4hS" secondAttribute="bottom" constant="16" id="ErD-Da-dZJ"/>
+                <constraint firstItem="ONJ-et-Tnw" firstAttribute="top" secondItem="bCh-CS-gFP" secondAttribute="bottom" constant="16" id="FCF-BT-20G"/>
+                <constraint firstItem="WFw-v5-V5k" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="16" id="QHN-MD-5S4"/>
+                <constraint firstItem="ck8-QQ-4hS" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="16" id="Vuv-ee-tdj"/>
+                <constraint firstItem="j1K-Gz-WWT" firstAttribute="top" secondItem="WFw-v5-V5k" secondAttribute="bottom" constant="16" id="Wdq-vS-rSf"/>
+                <constraint firstItem="ONJ-et-Tnw" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="16" id="XpN-G5-lhK"/>
+                <constraint firstItem="bCh-CS-gFP" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="16" id="gGV-zI-t3r"/>
+                <constraint firstItem="ck8-QQ-4hS" firstAttribute="top" secondItem="j1K-Gz-WWT" secondAttribute="bottom" constant="16" id="pOZ-gM-ChT"/>
+                <constraint firstItem="j1K-Gz-WWT" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="16" id="ppF-8d-1oL"/>
+                <constraint firstAttribute="trailing" secondItem="ck8-QQ-4hS" secondAttribute="trailing" constant="16" id="q1M-6F-HGe"/>
+                <constraint firstItem="WFw-v5-V5k" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="8" id="qx0-mZ-qrY"/>
+                <constraint firstAttribute="trailing" secondItem="ONJ-et-Tnw" secondAttribute="trailing" constant="16" id="v1N-OH-Oia"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

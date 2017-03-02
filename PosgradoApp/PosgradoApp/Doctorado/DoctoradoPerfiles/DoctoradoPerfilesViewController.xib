@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MaestriaPerfilesViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="1123"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yhh-ki-D9U">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="1123"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aSq-UP-djN">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="1123"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Perfiles" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YCG-KN-Xrg">
+                                    <rect key="frame" x="8" y="18" width="73" height="24"/>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Perfil de ingreso" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Gd-p0-s52">
+                                    <rect key="frame" x="8" y="50" width="148.5" height="23"/>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hdv-YM-gAZ">
+                                    <rect key="frame" x="16" y="93" width="343" height="609"/>
+                                    <mutableString key="text">- Poseer base sólidas en física y matemáticas.
+
+- Ser entusiasta e inquisitivo ante fenómenos no fácilmente explicables.
+
+- Tener capacidad de análisis y síntesis altamente formada.
+
+- Ser objetivo en sus juicios.
+
+- Ser creativo en sus propuestas.
+
+- Saber adaptarse a las condiciones de trabajo, tanto individual como de grupo.
+
+- Ser disciplinado y administrado en su tiempo adecuadamente.
+
+- Tener disponibilidad de tiempo completo para dedicarse al programa de Doctorado.
+
+- Saber hacer uso de las facilidades tecnológicas para realizar su trabajo eficientemente.
+
+- Expresar adecuadamente sus ideas, tanto en forma oral como escrita.
+Ser hábil en la búsqueda y discriminación de información especializada.</mutableString>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Perfil del egresado" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vx7-mt-uAB">
+                                    <rect key="frame" x="8" y="722" width="171" height="23"/>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z9d-F0-BhE">
+                                    <rect key="frame" x="16" y="765" width="343" height="304.5"/>
+                                    <string key="text">- Será experto en alguna de nuestras líneas de investigación.
+
+- Desempeñará labores docentes de alto nivel en el área de la ingeniería física que haya seleccionado.
+
+- Participará en grupos de investigación en el sector público o privado.
+
+- Desempeñará resultados en su investigación que serán reconocidos por ante la comunidad científica nacional e internacional.
+</string>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstItem="6Gd-p0-s52" firstAttribute="leading" secondItem="aSq-UP-djN" secondAttribute="leading" constant="8" id="05n-xI-ict"/>
+                                <constraint firstAttribute="trailing" secondItem="z9d-F0-BhE" secondAttribute="trailing" constant="16" id="0xe-SW-nrw"/>
+                                <constraint firstItem="6Gd-p0-s52" firstAttribute="top" secondItem="YCG-KN-Xrg" secondAttribute="bottom" constant="8" id="E4G-Pt-VRj"/>
+                                <constraint firstItem="Vx7-mt-uAB" firstAttribute="top" secondItem="hdv-YM-gAZ" secondAttribute="bottom" constant="20" id="Xgn-FT-tJ8"/>
+                                <constraint firstItem="z9d-F0-BhE" firstAttribute="leading" secondItem="aSq-UP-djN" secondAttribute="leading" constant="16" id="bFc-wj-wjr"/>
+                                <constraint firstItem="YCG-KN-Xrg" firstAttribute="leading" secondItem="aSq-UP-djN" secondAttribute="leading" constant="8" id="eY7-12-mTM"/>
+                                <constraint firstItem="hdv-YM-gAZ" firstAttribute="top" secondItem="6Gd-p0-s52" secondAttribute="bottom" constant="20" id="kCb-NS-Paq"/>
+                                <constraint firstItem="z9d-F0-BhE" firstAttribute="top" secondItem="Vx7-mt-uAB" secondAttribute="bottom" constant="20" id="knY-Lr-Gb1"/>
+                                <constraint firstItem="hdv-YM-gAZ" firstAttribute="leading" secondItem="aSq-UP-djN" secondAttribute="leading" constant="16" id="qjs-l7-PNp"/>
+                                <constraint firstItem="Vx7-mt-uAB" firstAttribute="leading" secondItem="aSq-UP-djN" secondAttribute="leading" constant="8" id="rF3-dP-mP1"/>
+                                <constraint firstItem="YCG-KN-Xrg" firstAttribute="top" secondItem="aSq-UP-djN" secondAttribute="top" constant="18" id="vCG-O1-bCd"/>
+                                <constraint firstAttribute="trailing" secondItem="hdv-YM-gAZ" secondAttribute="trailing" constant="16" id="znr-UX-ocH"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="aSq-UP-djN" firstAttribute="leading" secondItem="yhh-ki-D9U" secondAttribute="leading" id="1e4-U6-CYv"/>
+                        <constraint firstAttribute="trailing" secondItem="aSq-UP-djN" secondAttribute="trailing" id="YjI-qt-vdt"/>
+                        <constraint firstItem="aSq-UP-djN" firstAttribute="top" secondItem="yhh-ki-D9U" secondAttribute="top" id="ifp-nH-bqc"/>
+                        <constraint firstAttribute="bottom" secondItem="aSq-UP-djN" secondAttribute="bottom" constant="500" id="u4i-LA-s0e"/>
+                    </constraints>
+                </scrollView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="yhh-ki-D9U" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="1xw-8F-OPQ"/>
+                <constraint firstItem="yhh-ki-D9U" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="U13-Rt-pTU"/>
+                <constraint firstAttribute="bottom" secondItem="yhh-ki-D9U" secondAttribute="bottom" id="YlR-OB-wPS"/>
+                <constraint firstItem="aSq-UP-djN" firstAttribute="height" secondItem="i5M-Pr-FkT" secondAttribute="height" priority="750" id="aSU-vt-5nt"/>
+                <constraint firstAttribute="trailing" secondItem="yhh-ki-D9U" secondAttribute="trailing" id="jeS-6E-7Yi"/>
+                <constraint firstItem="aSq-UP-djN" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" id="z7d-R0-gpP"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="24.5" y="279.5"/>
+        </view>
+    </objects>
+</document>

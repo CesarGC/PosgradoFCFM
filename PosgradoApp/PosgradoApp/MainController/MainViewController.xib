@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MainViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tu7-Fd-PQt">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="200"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="maestria_fisica" translatesAutoresizingMaskIntoConstraints="NO" id="eoQ-Ak-FDR">
+                            <rect key="frame" x="8" y="36" width="192" height="128"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="eoQ-Ak-FDR" secondAttribute="height" multiplier="3:2" id="eyZ-LN-gaf"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Maestria en Ing. Física Industrial" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qdh-kg-o3D">
+                            <rect key="frame" x="208" y="77.5" width="167" height="45.5"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
+                            <color key="textColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MFE-f4-SzC">
+                            <rect key="frame" x="8" y="197" width="359" height="1"/>
+                            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="1" id="2rZ-GY-IoC"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <gestureRecognizers/>
+                    <constraints>
+                        <constraint firstItem="eoQ-Ak-FDR" firstAttribute="centerY" secondItem="tu7-Fd-PQt" secondAttribute="centerY" id="9H2-Xp-vyd"/>
+                        <constraint firstItem="MFE-f4-SzC" firstAttribute="leading" secondItem="tu7-Fd-PQt" secondAttribute="leading" constant="8" id="IXK-GL-rO1"/>
+                        <constraint firstAttribute="bottom" secondItem="MFE-f4-SzC" secondAttribute="bottom" constant="2" id="OnP-A0-q5F"/>
+                        <constraint firstAttribute="trailing" secondItem="Qdh-kg-o3D" secondAttribute="trailing" id="Qzh-Fr-FJY"/>
+                        <constraint firstItem="Qdh-kg-o3D" firstAttribute="centerY" secondItem="tu7-Fd-PQt" secondAttribute="centerY" id="VCo-s9-jde"/>
+                        <constraint firstAttribute="trailing" secondItem="MFE-f4-SzC" secondAttribute="trailing" constant="8" id="VvN-4Q-wEH"/>
+                        <constraint firstItem="Qdh-kg-o3D" firstAttribute="leading" secondItem="eoQ-Ak-FDR" secondAttribute="trailing" constant="8" id="ddh-5N-1Wl"/>
+                        <constraint firstItem="eoQ-Ak-FDR" firstAttribute="top" secondItem="tu7-Fd-PQt" secondAttribute="top" constant="36" id="jN9-Oe-3kT"/>
+                        <constraint firstItem="eoQ-Ak-FDR" firstAttribute="leading" secondItem="tu7-Fd-PQt" secondAttribute="leading" constant="8" id="zbi-Er-1XC"/>
+                    </constraints>
+                    <connections>
+                        <outletCollection property="gestureRecognizers" destination="Ea4-jj-aUZ" appends="YES" id="sIK-cX-jbH"/>
+                    </connections>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jQR-6f-PQB" userLabel="Doctorado">
+                    <rect key="frame" x="0.0" y="200" width="375" height="200"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fisica" translatesAutoresizingMaskIntoConstraints="NO" id="FY4-6j-MMB">
+                            <rect key="frame" x="8" y="36" width="192" height="128"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="FY4-6j-MMB" secondAttribute="height" multiplier="3:2" id="aFA-Dv-GFz"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Doctorado en Ing. Física Industrial" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5tl-ht-pnE">
+                            <rect key="frame" x="208" y="66.5" width="159" height="68.5"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
+                            <color key="textColor" red="0.43529412150000002" green="0.4431372583" blue="0.47450980539999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Fyh-mV-Hgk">
+                            <rect key="frame" x="8" y="197" width="359" height="1"/>
+                            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="1" id="eD0-jM-JXW"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <gestureRecognizers/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="Fyh-mV-Hgk" secondAttribute="trailing" constant="8" id="5my-UG-Dmu"/>
+                        <constraint firstItem="FY4-6j-MMB" firstAttribute="centerY" secondItem="jQR-6f-PQB" secondAttribute="centerY" id="Aao-R6-Cup"/>
+                        <constraint firstItem="5tl-ht-pnE" firstAttribute="leading" secondItem="FY4-6j-MMB" secondAttribute="trailing" constant="8" id="IMJ-W0-Cg0"/>
+                        <constraint firstItem="FY4-6j-MMB" firstAttribute="top" secondItem="jQR-6f-PQB" secondAttribute="top" constant="36" id="UQe-0i-EQW"/>
+                        <constraint firstItem="FY4-6j-MMB" firstAttribute="leading" secondItem="jQR-6f-PQB" secondAttribute="leading" constant="8" id="VtO-22-1r9"/>
+                        <constraint firstAttribute="trailing" secondItem="5tl-ht-pnE" secondAttribute="trailing" constant="8" id="e3L-jI-hMc"/>
+                        <constraint firstAttribute="bottom" secondItem="Fyh-mV-Hgk" secondAttribute="bottom" constant="2" id="elp-eu-L0q"/>
+                        <constraint firstItem="Fyh-mV-Hgk" firstAttribute="leading" secondItem="jQR-6f-PQB" secondAttribute="leading" constant="8" id="wFw-LO-qfW"/>
+                        <constraint firstItem="5tl-ht-pnE" firstAttribute="centerY" secondItem="jQR-6f-PQB" secondAttribute="centerY" id="za8-fD-sVm"/>
+                    </constraints>
+                    <connections>
+                        <outletCollection property="gestureRecognizers" destination="5JF-8Z-bC5" appends="YES" id="1cU-PR-NCr"/>
+                    </connections>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Iz7-5d-oFt">
+                    <rect key="frame" x="0.0" y="400" width="375" height="267"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="noticias" translatesAutoresizingMaskIntoConstraints="NO" id="ekZ-se-eZU">
+                            <rect key="frame" x="223" y="89" width="45" height="45"/>
+                            <gestureRecognizers/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="45" id="Hmh-BZ-hdW"/>
+                                <constraint firstAttribute="width" constant="45" id="onu-qs-RMR"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Noticias" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f1G-EZ-jOA">
+                            <rect key="frame" x="276" y="100" width="91" height="24"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                            <color key="textColor" red="0.43529412150000002" green="0.4431372583" blue="0.47450980539999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ubicacion" translatesAutoresizingMaskIntoConstraints="NO" id="Ym5-4B-Vsb">
+                            <rect key="frame" x="223" y="150" width="45" height="45"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="45" id="PQM-kg-AZ8"/>
+                                <constraint firstAttribute="width" constant="45" id="WZZ-hq-czL"/>
+                            </constraints>
+                            <connections>
+                                <outletCollection property="gestureRecognizers" destination="JQi-pj-3T7" appends="YES" id="8UV-19-Bof"/>
+                            </connections>
+                        </imageView>
+                        <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ubicación" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LSv-Du-VFI">
+                            <rect key="frame" x="276" y="161" width="91" height="23"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
+                            <color key="textColor" red="0.43529412150000002" green="0.4431372583" blue="0.47450980539999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                            <connections>
+                                <outletCollection property="gestureRecognizers" destination="JQi-pj-3T7" appends="YES" id="ye1-nB-K4L"/>
+                            </connections>
+                        </label>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="Ym5-4B-Vsb" firstAttribute="centerY" secondItem="LSv-Du-VFI" secondAttribute="centerY" id="AY8-p1-ghJ"/>
+                        <constraint firstItem="LSv-Du-VFI" firstAttribute="leading" secondItem="Ym5-4B-Vsb" secondAttribute="trailing" constant="8" id="C8f-Qi-xRY"/>
+                        <constraint firstAttribute="trailing" secondItem="LSv-Du-VFI" secondAttribute="trailing" constant="8" id="Eoy-bz-n5K"/>
+                        <constraint firstItem="f1G-EZ-jOA" firstAttribute="centerY" secondItem="ekZ-se-eZU" secondAttribute="centerY" id="HBa-XB-GO9"/>
+                        <constraint firstItem="f1G-EZ-jOA" firstAttribute="leading" secondItem="ekZ-se-eZU" secondAttribute="trailing" constant="8" id="ISI-ua-pTr"/>
+                        <constraint firstAttribute="trailing" secondItem="f1G-EZ-jOA" secondAttribute="trailing" constant="8" id="PJ3-ex-rZP"/>
+                        <constraint firstItem="f1G-EZ-jOA" firstAttribute="top" secondItem="Iz7-5d-oFt" secondAttribute="top" constant="100" id="fGB-Md-x7P"/>
+                        <constraint firstItem="LSv-Du-VFI" firstAttribute="top" secondItem="f1G-EZ-jOA" secondAttribute="bottom" constant="37" id="o5Y-jk-2j8"/>
+                        <constraint firstItem="f1G-EZ-jOA" firstAttribute="leading" secondItem="LSv-Du-VFI" secondAttribute="leading" id="rAE-wB-ohY"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Iz7-5d-oFt" firstAttribute="top" secondItem="jQR-6f-PQB" secondAttribute="bottom" id="05c-KS-Dmf"/>
+                <constraint firstItem="jQR-6f-PQB" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="1iQ-uS-GqN"/>
+                <constraint firstItem="tu7-Fd-PQt" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Hfj-w9-PEi"/>
+                <constraint firstItem="Iz7-5d-oFt" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="I3e-2Q-XJn"/>
+                <constraint firstItem="jQR-6f-PQB" firstAttribute="height" secondItem="i5M-Pr-FkT" secondAttribute="height" multiplier="0.3" id="K6S-Yz-YZ8"/>
+                <constraint firstItem="Iz7-5d-oFt" firstAttribute="height" secondItem="i5M-Pr-FkT" secondAttribute="height" multiplier="0.4" id="K8f-8u-Jbv"/>
+                <constraint firstItem="tu7-Fd-PQt" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="WSq-tS-LTF"/>
+                <constraint firstAttribute="trailing" secondItem="Iz7-5d-oFt" secondAttribute="trailing" id="Z8W-ua-fbx"/>
+                <constraint firstAttribute="trailing" secondItem="tu7-Fd-PQt" secondAttribute="trailing" id="cA1-58-2Ry"/>
+                <constraint firstItem="jQR-6f-PQB" firstAttribute="top" secondItem="tu7-Fd-PQt" secondAttribute="bottom" id="fa9-Pm-M1W"/>
+                <constraint firstItem="tu7-Fd-PQt" firstAttribute="height" secondItem="i5M-Pr-FkT" secondAttribute="height" multiplier="0.3" id="k9f-zE-Udt"/>
+                <constraint firstAttribute="trailing" secondItem="jQR-6f-PQB" secondAttribute="trailing" id="zmA-OG-2NW"/>
+            </constraints>
+            <point key="canvasLocation" x="24.5" y="52.5"/>
+        </view>
+        <tapGestureRecognizer id="Ea4-jj-aUZ">
+            <connections>
+                <action selector="entroMaestria:" destination="-1" id="nm6-Zn-i1d"/>
+            </connections>
+        </tapGestureRecognizer>
+        <tapGestureRecognizer id="JQi-pj-3T7">
+            <connections>
+                <action selector="mapAction:" destination="-1" id="dcF-1g-fSp"/>
+                <outlet property="delegate" destination="Ym5-4B-Vsb" id="ZiQ-CQ-ciw"/>
+            </connections>
+        </tapGestureRecognizer>
+        <tapGestureRecognizer id="5JF-8Z-bC5">
+            <connections>
+                <action selector="entroDoctorado:" destination="-1" id="ba0-2g-L9l"/>
+            </connections>
+        </tapGestureRecognizer>
+    </objects>
+    <resources>
+        <image name="fisica" width="294" height="238"/>
+        <image name="maestria_fisica" width="265" height="165"/>
+        <image name="noticias" width="279" height="279"/>
+        <image name="ubicacion" width="2217" height="2202"/>
+    </resources>
+</document>

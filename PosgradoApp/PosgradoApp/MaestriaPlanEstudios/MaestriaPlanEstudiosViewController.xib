@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MaestriaPlanEstudiosViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="webView" destination="vYs-QL-5G2" id="ih9-RE-4d1"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Plan de Estudios" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H4U-EQ-E3v">
+                    <rect key="frame" x="16" y="16" width="127" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <webView contentMode="scaleToFill" scalesPageToFit="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vYs-QL-5G2">
+                    <rect key="frame" x="0.0" y="53" width="375" height="614"/>
+                    <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </webView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="afp-ut-nbM">
+                    <rect key="frame" x="8" y="47" width="359" height="2"/>
+                    <color key="backgroundColor" red="0.56106466050000003" green="0.77804696559999997" blue="0.83810108900000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="2" id="xWu-D9-eYh"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="H4U-EQ-E3v" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="16" id="9wf-0H-xAy"/>
+                <constraint firstItem="vYs-QL-5G2" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Dau-dM-5Cs"/>
+                <constraint firstAttribute="trailing" secondItem="afp-ut-nbM" secondAttribute="trailing" constant="8" id="HxN-Hd-YMe"/>
+                <constraint firstItem="vYs-QL-5G2" firstAttribute="top" secondItem="afp-ut-nbM" secondAttribute="bottom" constant="4" id="WrO-ji-h6a"/>
+                <constraint firstAttribute="bottom" secondItem="vYs-QL-5G2" secondAttribute="bottom" id="YUC-f3-kdm"/>
+                <constraint firstItem="H4U-EQ-E3v" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="16" id="d1q-d5-FCc"/>
+                <constraint firstAttribute="trailing" secondItem="vYs-QL-5G2" secondAttribute="trailing" id="d4M-px-R4q"/>
+                <constraint firstItem="afp-ut-nbM" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="8" id="iLJ-yQ-q27"/>
+                <constraint firstItem="vYs-QL-5G2" firstAttribute="top" secondItem="H4U-EQ-E3v" secondAttribute="bottom" constant="16" id="ycy-s0-f1m"/>
+            </constraints>
+            <point key="canvasLocation" x="24.5" y="51.5"/>
+        </view>
+    </objects>
+</document>

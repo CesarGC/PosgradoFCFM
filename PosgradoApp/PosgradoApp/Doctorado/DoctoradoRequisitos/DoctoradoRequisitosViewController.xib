@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DoctoradoRequisitosViewController">
+            <connections>
+                <outlet property="lblEgresado" destination="Na6-5T-Ad4" id="a4p-xU-TTw"/>
+                <outlet property="lblPermancia" destination="hb6-pd-mEa" id="wlJ-Qa-Wtc"/>
+                <outlet property="lblRequisitos" destination="k1c-Y1-C6g" id="m6i-0l-d9n"/>
+                <outlet property="lblRequisitosAdmision" destination="pW4-PW-wCE" id="jfk-tO-neA"/>
+                <outlet property="scrollDoctorado" destination="Sun-db-Psl" id="Z48-88-VoW"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="3131"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Sun-db-Psl">
+                    <rect key="frame" x="0.0" y="40" width="375" height="3091"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="seY-HN-NpU">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="3087"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Requisitos de admisión" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pW4-PW-wCE">
+                                    <rect key="frame" x="16" y="20" width="200" height="21"/>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zzP-34-fQL">
+                                    <rect key="frame" x="16" y="57" width="343" height="1522"/>
+                                    <string key="text">1. Tener una maestría en física, matemáticas, ingeniería, computación o áreas afines que reconozca la UANL con promedio general no menor a 80.
+
+2. Presentar su documentación completa ante la División de Estudios de Posgrado de la FCFM:
+	- Solicitud de ingreso debidamente llenada y firmada por la persona interesada (solicitada en el depto. de Escolar de la FCFM).
+	- Propuesta escrita de proyecto doctoral.
+	- Copia del título de Licenciatura.
+	- Copia de título de Maestría.
+	- Copia de Kárdex de Licenciatura (que incluya el promedio).
+	- Copia de Kárdex de Maestría (que incluya el promedio).
+	- Curriculum Vitae.
+	- Dos cartas de recomendación de maestros de Licenciatura o Maestría.
+	- Carta de exposición de motivos (con extensión máxima de una cuartilla) dirigida al Coordinador del Docotorado en Ingeniería Físico Industrial.
+
+3. Presentar y aprobar el examen general de admisión para el ingreso al Posgrado de la UAN (EXANI III, EXCI). Este examen, aprobado por la Comisión  Académica del H. Consejo Universitario, evaluará los conocimientos en los diferentes campos de estudios que se ofrecen en la UANL, así como en los idiomas extranjeros más empleados. En el caso de los estudiantes extranjeros cuya segunda lengua sea el español, deberán aprobar el examen de idioma español aplicado por la UANL. Para los aspirantes extranjeros se podrá establecer, a juicio de la Dirección General de Estudios de Posgrado de la UANL, una equivalencia al examen de admisión con exámenes calificados que puedan ser presentados en sus países de origen.
+
+4. Presentar y aprobar un examen específico de admisión al Doctorado. Este examen es un requisito que tiene como propósito conocer la preparación del alumno en los temas básicos de Ingeniería Física Industrial. I. Examen de diagnóstico para ingresar al programa doctoral a partir de la   licenciatura:
+	- Conocimientos básicos de física general,  tomando como base los  textos: volumen  1,2,3 y 4  del curso de física de Berkeley.
+	- Conocimientos de cálculo diferencial e integral y ecuaciones diferenciales, tomando como base los textos de  Dennis G. Zill.
+
+5. Ser aceptado como estudiante del Doctorado por el Comité del Doctorado de la FCFM (entrevista).
+
+6. Establecer el compromiso de dedicar tiempo completo a las actividades académicas que se desarrollen cada semestre.
+
+7. Cumplir con los requisitos administrativos para el ingreso a posgrado señalados por el Departamento Escolar y de Archivo de la UANL.</string>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Requisitos de Permanencia" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hb6-pd-mEa">
+                                    <rect key="frame" x="16" y="1610.5" width="234.5" height="21"/>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xA8-Kb-P7s">
+                                    <rect key="frame" x="16" y="1647.5" width="343" height="406"/>
+                                    <string key="text">1. Mantener el compromiso respecto al tiempo dedicado al programa.
+
+2. No reprobar más de una materia (la calificación mínima aprobatoria es de 80, dentro de una escala del 0 al 100).
+
+3. Realizar las actividades académicas, incluyendo las asignaturas adicionales.
+
+4. Presentar un informe anual a manera de presentación de actividades académicas y avances, tanto de cursos como de investigación ante el Comité del Doctorado, para su evaluación.
+
+5. Los establecidos en el Reglamento General de Estudios de Posgrado de la UANL (RGEP-UANL)y por el reglamento interno de la FCFM.</string>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Requisitos de Egreso" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Na6-5T-Ad4">
+                                    <rect key="frame" x="16" y="2069.5" width="181.5" height="21"/>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZuJ-Re-eo1">
+                                    <rect key="frame" x="16" y="2106.5" width="343" height="730.5"/>
+                                    <string key="text">1. Haber cumplido con el programa académico de formación y apoyo, establecido por el Comité del Doctorado de la FCFM:
+
+	- Haber obtenido el total de créditos establecido en el Reglamento General de Estudios de Posgrado de la UANL.
+	- Haber aprobado todas las materias con calificación mínima de 80."
+
+2. Haber conluido el trabajo de tesis.
+
+3. Haber realizado la pre-defensa de tesis.
+
+4. Aprobar el examen de grado de Doctorado que consiste en la presentación  y sustentación de una tesis, que llevará como elemento esencial la contribución original e innovadora del conocimiento. El examen de grado se sustentará en forma de disertación, en español y sin límite de tiempo. Deberá  ser público. Los jurados examinadores serán designados por el Subdirector de Estudios de Posgrado y estarán integrados por un Presidente (Director de tesis), un Secretario y tres vocales. El alumno suspendido en el examen de grado, tendrá opción a sustentar un nuevo examen en un término no menor de seis meses y no mayor del período de vigencia de sus créditos ( cinco años a partir de su obtención)."
+
+5. Un artículo aceptado para su publicación en revista indexada por JCR.</string>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstItem="xA8-Kb-P7s" firstAttribute="top" secondItem="hb6-pd-mEa" secondAttribute="bottom" constant="16" id="73f-cC-Ae2"/>
+                                <constraint firstItem="zzP-34-fQL" firstAttribute="leading" secondItem="seY-HN-NpU" secondAttribute="leading" constant="16" id="D0x-fu-AuB"/>
+                                <constraint firstItem="pW4-PW-wCE" firstAttribute="leading" secondItem="seY-HN-NpU" secondAttribute="leading" constant="16" id="EC8-zd-nRL"/>
+                                <constraint firstItem="Na6-5T-Ad4" firstAttribute="leading" secondItem="seY-HN-NpU" secondAttribute="leading" constant="16" id="IEL-El-V1X"/>
+                                <constraint firstItem="pW4-PW-wCE" firstAttribute="top" secondItem="seY-HN-NpU" secondAttribute="top" constant="20" id="K60-Ie-jZZ"/>
+                                <constraint firstItem="Na6-5T-Ad4" firstAttribute="top" secondItem="xA8-Kb-P7s" secondAttribute="bottom" constant="16" id="LXt-qq-BHJ"/>
+                                <constraint firstItem="hb6-pd-mEa" firstAttribute="top" secondItem="zzP-34-fQL" secondAttribute="bottom" constant="32" id="QCL-ZE-T59"/>
+                                <constraint firstAttribute="trailing" secondItem="xA8-Kb-P7s" secondAttribute="trailing" constant="16" id="QeZ-6j-Oo5"/>
+                                <constraint firstItem="hb6-pd-mEa" firstAttribute="leading" secondItem="seY-HN-NpU" secondAttribute="leading" constant="16" id="USp-Cl-p2G"/>
+                                <constraint firstAttribute="trailing" secondItem="ZuJ-Re-eo1" secondAttribute="trailing" constant="16" id="Zud-xg-NY1"/>
+                                <constraint firstItem="ZuJ-Re-eo1" firstAttribute="leading" secondItem="seY-HN-NpU" secondAttribute="leading" constant="16" id="cb0-1e-1eB"/>
+                                <constraint firstAttribute="trailing" secondItem="zzP-34-fQL" secondAttribute="trailing" constant="16" id="fRh-QP-ngE"/>
+                                <constraint firstItem="xA8-Kb-P7s" firstAttribute="leading" secondItem="seY-HN-NpU" secondAttribute="leading" constant="16" id="g7a-F4-sRK"/>
+                                <constraint firstItem="ZuJ-Re-eo1" firstAttribute="top" secondItem="Na6-5T-Ad4" secondAttribute="bottom" constant="16" id="ncE-HQ-dLG"/>
+                                <constraint firstItem="zzP-34-fQL" firstAttribute="top" secondItem="pW4-PW-wCE" secondAttribute="bottom" constant="16" id="rOl-Ml-iYh"/>
+                                <constraint firstAttribute="bottom" secondItem="ZuJ-Re-eo1" secondAttribute="bottom" constant="250" id="y89-Rb-7oJ"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="seY-HN-NpU" secondAttribute="trailing" id="7Un-cW-ekz"/>
+                        <constraint firstAttribute="bottom" secondItem="seY-HN-NpU" secondAttribute="bottom" constant="50" id="qXX-Dm-obN"/>
+                        <constraint firstItem="seY-HN-NpU" firstAttribute="top" secondItem="Sun-db-Psl" secondAttribute="top" id="wAu-fj-wb5"/>
+                        <constraint firstItem="seY-HN-NpU" firstAttribute="leading" secondItem="Sun-db-Psl" secondAttribute="leading" id="zjS-Dw-sLK"/>
+                    </constraints>
+                </scrollView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tfw-jw-SbP">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="40"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Requisitos" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k1c-Y1-C6g">
+                            <rect key="frame" x="8" y="8" width="101.5" height="24"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="k1c-Y1-C6g" firstAttribute="leading" secondItem="tfw-jw-SbP" secondAttribute="leading" constant="8" id="0So-wm-wt7"/>
+                        <constraint firstItem="k1c-Y1-C6g" firstAttribute="centerY" secondItem="tfw-jw-SbP" secondAttribute="centerY" id="CSr-y4-GNA"/>
+                        <constraint firstAttribute="height" constant="40" id="O5g-if-Xrs"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="seY-HN-NpU" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" id="4s7-8t-t98"/>
+                <constraint firstItem="tfw-jw-SbP" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="5Ta-4B-Wtu"/>
+                <constraint firstItem="Sun-db-Psl" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="CAj-bI-j4e"/>
+                <constraint firstAttribute="trailing" secondItem="tfw-jw-SbP" secondAttribute="trailing" id="Vhy-Bf-5Zo"/>
+                <constraint firstAttribute="bottom" secondItem="Sun-db-Psl" secondAttribute="bottom" id="a1J-zG-bSe"/>
+                <constraint firstItem="seY-HN-NpU" firstAttribute="height" secondItem="i5M-Pr-FkT" secondAttribute="height" priority="250" id="bRx-dE-ARh"/>
+                <constraint firstAttribute="trailing" secondItem="Sun-db-Psl" secondAttribute="trailing" id="f73-WT-mj2"/>
+                <constraint firstItem="Sun-db-Psl" firstAttribute="top" secondItem="tfw-jw-SbP" secondAttribute="bottom" id="rJd-BX-Rlc"/>
+                <constraint firstItem="tfw-jw-SbP" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="zuV-P1-ju7"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="24.5" y="1283.5"/>
+        </view>
+    </objects>
+</document>
