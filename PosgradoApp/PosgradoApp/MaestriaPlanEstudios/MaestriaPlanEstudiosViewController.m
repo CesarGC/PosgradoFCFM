@@ -11,6 +11,12 @@
 @interface MaestriaPlanEstudiosViewController ()
 
 @property (weak, nonatomic) IBOutlet UIWebView *webView;
+@property (weak, nonatomic) IBOutlet UITableView *tablaPlanEstudioTiempoCompleto;
+@property (weak, nonatomic) IBOutlet UITableView *tablaPlanEstudioTiempoParcial;
+@property (weak, nonatomic) IBOutlet UITableView *tablaOptativas;
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint *constraintHeightCompleto;
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint *constraintHeightParcial;
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint *constraintHeightOptativas;
 
 @end
 
