@@ -67,6 +67,8 @@
 		63B35C581E53CA61008F5BE3 /* MaestriaProcesosAdministrativosViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63B35C561E53CA61008F5BE3 /* MaestriaProcesosAdministrativosViewController.xib */; };
 		63B35C5D1E53CD57008F5BE3 /* MaestriaPerfilesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B35C5B1E53CD57008F5BE3 /* MaestriaPerfilesViewController.m */; };
 		63B35C5E1E53CD57008F5BE3 /* MaestriaPerfilesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63B35C5C1E53CD57008F5BE3 /* MaestriaPerfilesViewController.xib */; };
+		63C4B5561E6F642B00018293 /* MaestriaPlanCompletoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C4B5541E6F642B00018293 /* MaestriaPlanCompletoTableViewCell.m */; };
+		63C4B5571E6F642B00018293 /* MaestriaPlanCompletoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63C4B5551E6F642B00018293 /* MaestriaPlanCompletoTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -182,6 +184,9 @@
 		63B35C5A1E53CD57008F5BE3 /* MaestriaPerfilesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MaestriaPerfilesViewController.h; path = MaestriaPerfiles/MaestriaPerfilesViewController.h; sourceTree = "<group>"; };
 		63B35C5B1E53CD57008F5BE3 /* MaestriaPerfilesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MaestriaPerfilesViewController.m; path = MaestriaPerfiles/MaestriaPerfilesViewController.m; sourceTree = "<group>"; };
 		63B35C5C1E53CD57008F5BE3 /* MaestriaPerfilesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MaestriaPerfilesViewController.xib; path = MaestriaPerfiles/MaestriaPerfilesViewController.xib; sourceTree = "<group>"; };
+		63C4B5531E6F642B00018293 /* MaestriaPlanCompletoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MaestriaPlanCompletoTableViewCell.h; path = MaestriaPlanEstudios/MaestriaPlanCompletoTableViewCell.h; sourceTree = "<group>"; };
+		63C4B5541E6F642B00018293 /* MaestriaPlanCompletoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MaestriaPlanCompletoTableViewCell.m; path = MaestriaPlanEstudios/MaestriaPlanCompletoTableViewCell.m; sourceTree = "<group>"; };
+		63C4B5551E6F642B00018293 /* MaestriaPlanCompletoTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MaestriaPlanCompletoTableViewCell.xib; path = MaestriaPlanEstudios/MaestriaPlanCompletoTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -504,6 +509,9 @@
 				639FD4B21E4A99E80047A1D5 /* MaestriaPlanEstudiosViewController.h */,
 				639FD4B31E4A99E80047A1D5 /* MaestriaPlanEstudiosViewController.m */,
 				639FD4B41E4A99E80047A1D5 /* MaestriaPlanEstudiosViewController.xib */,
+				63C4B5531E6F642B00018293 /* MaestriaPlanCompletoTableViewCell.h */,
+				63C4B5541E6F642B00018293 /* MaestriaPlanCompletoTableViewCell.m */,
+				63C4B5551E6F642B00018293 /* MaestriaPlanCompletoTableViewCell.xib */,
 			);
 			name = MaestriaPlanEstudios;
 			sourceTree = "<group>";
@@ -709,6 +717,7 @@
 				63476B5D1E00C2A50031F295 /* MainCollectionViewCell.xib in Resources */,
 				63742B921E5661CD006E95CE /* DoctoradoProfesoresViewController.xib in Resources */,
 				638FEEE41E036153006A0BE8 /* MenuTableViewCell.xib in Resources */,
+				63C4B5571E6F642B00018293 /* MaestriaPlanCompletoTableViewCell.xib in Resources */,
 				63742B7E1E565C0A006E95CE /* DoctoradoObjetivosViewController.xib in Resources */,
 				63476B571E00C0D10031F295 /* MainViewController.xib in Resources */,
 			);
@@ -753,6 +762,7 @@
 				63A65ACE1E381F0F000C8AF4 /* MapaPosgradoViewController.m in Sources */,
 				63742B9C1E5661E8006E95CE /* DoctoradoPlanEstudiosViewController.m in Sources */,
 				63B35C4B1E53BB02008F5BE3 /* MaestriaProfesoresViewController.m in Sources */,
+				63C4B5561E6F642B00018293 /* MaestriaPlanCompletoTableViewCell.m in Sources */,
 				63742B8C1E5661BC006E95CE /* DoctoradoRequisitosViewController.m in Sources */,
 				638052711E2848DA0081E143 /* MainTableViewCell.m in Sources */,
 				63476B211E00BC920031F295 /* main.m in Sources */,
