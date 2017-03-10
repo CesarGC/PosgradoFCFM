@@ -8,6 +8,7 @@
 
 #import "MaestriaPlanEstudiosViewController.h"
 #import "MaestriaPlanCompletoTableViewCell.h"
+#import "MaestraPlanSemestreTableViewCell.h"
 
 @interface MaestriaPlanEstudiosViewController () <UITableViewDelegate, UITableViewDataSource>
 
@@ -43,7 +44,13 @@
     self.tablaPlanEstudioTiempoCompleto.dataSource = self;
     
     [self.tablaPlanEstudioTiempoCompleto registerNib:[UINib nibWithNibName:@"MaestriaPlanCompletoTableViewCell" bundle:nil] forCellReuseIdentifier:@"cellPlanMaestria"];
+    [self.tablaPlanEstudioTiempoCompleto registerNib:[UINib nibWithNibName:@"MaestraPlanSemestreTableViewCell" bundle:nil] forCellReuseIdentifier:@"maestiraSemestre"];
+    
     [self.tablaPlanEstudioTiempoParcial registerNib:[UINib nibWithNibName:@"MaestriaPlanCompletoTableViewCell" bundle:nil] forCellReuseIdentifier:@"cellPlanMaestria"];
+    [self.tablaPlanEstudioTiempoParcial registerNib:[UINib nibWithNibName:@"MaestraPlanSemestreTableViewCell" bundle:nil] forCellReuseIdentifier:@"maestiraSemestre"];
+    
+    [self.tablaOptativas registerNib:[UINib nibWithNibName:@"MaestriaPlanCompletoTableViewCell" bundle:nil] forCellReuseIdentifier:@"cellPlanMaestria"];
+    [self.tablaOptativas registerNib:[UINib nibWithNibName:@"MaestraPlanSemestreTableViewCell" bundle:nil] forCellReuseIdentifier:@"maestiraSemestre"];
     
     self.tablaOptativas.rowHeight = UITableViewAutomaticDimension;
     self.tablaOptativas.estimatedRowHeight = 140;
@@ -52,6 +59,44 @@
     self.tablaPlanEstudioTiempoCompleto.rowHeight = UITableViewAutomaticDimension;
     self.tablaPlanEstudioTiempoCompleto.estimatedRowHeight = 140;
     
+    [self llenarDatosTablaPlanCompleto];
+    [self.tablaPlanEstudioTiempoCompleto reloadData];
+    
+    dispatch_async(dispatch_get_main_queue(), ^{
+        //This code will run in the main thread:
+        CGRect frame = self.tablaPlanEstudioTiempoCompleto.frame;
+        frame.size.height = self.tablaPlanEstudioTiempoCompleto.contentSize.height;
+        self.constraintHeightCompleto.constant = frame.size.height;
+    });
+    
+    [self llenarArrayParcial];
+    [self.tablaPlanEstudioTiempoParcial reloadData];
+    
+    dispatch_async(dispatch_get_main_queue(), ^{
+        //This code will run in the main thread:
+        CGRect frame = self.tablaPlanEstudioTiempoParcial.frame;
+        frame.size.height = self.tablaPlanEstudioTiempoParcial.contentSize.height;
+        self.constraintHeightParcial.constant = frame.size.height;
+    });
+    
+
+    [self llenarArregloOptativas];
+    [self.tablaOptativas reloadData];
+    
+    dispatch_async(dispatch_get_main_queue(), ^{
+        //This code will run in the main thread:
+        CGRect frame = self.tablaOptativas.frame;
+        frame.size.height = self.tablaOptativas.contentSize.height;
+        self.constraintHeightOptativas.constant = frame.size.height;
+    });
+    
+}
+
+- (void)viewDidLayoutSubviews {
+    [super viewDidLayoutSubviews];
+    self.constraintHeightCompleto.constant = self.tablaPlanEstudioTiempoCompleto.contentSize.height;
+    self.constraintHeightParcial.constant = self.tablaPlanEstudioTiempoParcial.contentSize.height;
+    self.constraintHeightOptativas.constant = self.tablaOptativas.contentSize.height;
 }
 
 - (void)llenarDatosTablaPlanCompleto {
@@ -116,56 +161,60 @@
     
     @{@"semestre":@"PRESENTACION DE TESIS PARA OBTENER EL GRADO DE: MASTER EN INGENIERÍA FÍSICA INDUSTRÍAL", @"tipo":@"2"},
     ];
-    /*
-     ELECTRODINAMICA CLASICA I
-     MECANICA CLASICA
-     METODOS MATEMATICOS DE LA FISICA I
-     ELECTRODINAMICA CLASICA II
-     METODOS MATEMATICOS DE LA FISICA II
-     FISICA MODERNA
-     
-     PROYECTO DE INVESTIGACION I
-     TESIS I
-     PROYECTO DE INVESTIGACION II
-     TESIS II
-     SEMINARIO
-     SIMULACION DE SISTEMAS SOLIDOS
-     ESTADO SOLIDO
-     FISICA DE SUPERFICIES
-     PREPARACION Y CARACTERIZACION  DE NANOPARTICULAS
-     TECNICAS EXPERIM. EN NANOCIENCIAS Y NANOTECNOLOGIA
-     ANALISIS DE SEÑALES BIOMEDICAS I
-     ANALISIS DE SEÑALES BIOMEDICAS II
 
-     METODOS NUMERICOS ESPECIALES
-     FISICA MODERNA
-     TEORIA ELECTROMAGNETICA
-     PROCESOS ESTOCASTICOS I
-     METODOS MATEMATICOS DE LA FISICA I
-     INVESTIGACION DE OPERACIONES
-     FISICA DE LOS SISTEMAS DE BAJA DIMENSIONALIDAD
-     CONTROL OPTIMO
-     TOPICOS DE FOTONICA
-     CUMULOS METALICOS
-     INTRODUCCION A LA TEORIA DE CONTROL AUTOMATICO
-     CRISTALES SUPREMOLECULARES
-     METODOS DE SINTESIS DE NANOESTRUCTURAS
-     SINTESIS Y CARACTERIZACION DE PELICULAS DELGADAS
-     METODOS MATEMATICOS DE CONTROL
-     SISTEMAS DINAMICOS NO LINEALES I
-     OPTICA FISICA
-     FISICA CUANTICA
-     FISICA DE PLASMAS
-     INTRODUCCION A LA FUSION
-     FISICA DE CELDAS SOLARES
-     INTRODUCCION A LA NANOTECNOLOGIA
-     TOPICOS AVANZADOS DE FOTONICA
-     METODOS APLICADOS EN MICROSCOPIA ATOMICA
-     QUIMICA DE MATERIALES
-     ESPECTROSCOPIAS
-     RADIOMETRIA
-     */
-    self.arrayPlanCompleto = [[NSMutableArray alloc] initWithArray:array];
+    self.arrayPlanParcial = [[NSMutableArray alloc] initWithArray:array];
+}
+
+- (void)llenarArregloOptativas {
+    NSArray *array = @[
+    @{@"materia":@"ELECTRODINAMICA CLASICA I",@"tipo":@"3"},
+    @{@"materia":@"MECANICA CLASICA",@"tipo":@"3"},
+    @{@"materia":@"METODOS MATEMATICOS DE LA FISICA I",@"tipo":@"3"},
+    @{@"materia":@"ELECTRODINAMICA CLASICA II",@"tipo":@"3"},
+    @{@"materia":@"METODOS MATEMATICOS DE LA FISICA II",@"tipo":@"3"},
+    @{@"materia":@"FISICA MODERNA",@"tipo":@"3"},
+    @{@"materia":@"PROYECTO DE INVESTIGACION I",@"tipo":@"3"},
+    @{@"materia":@"TESIS I",@"tipo":@"3"},
+    @{@"materia":@"PROYECTO DE INVESTIGACION II",@"tipo":@"3"},
+    @{@"materia":@"TESIS II",@"tipo":@"3"},
+    @{@"materia":@"SEMINARIO",@"tipo":@"3"},
+    @{@"materia":@"SIMULACION DE SISTEMAS SOLIDOS",@"tipo":@"3"},
+    @{@"materia":@"ESTADO SOLIDO",@"tipo":@"3"},
+    @{@"materia":@"FISICA DE SUPERFICIES",@"tipo":@"3"},
+    @{@"materia":@"PREPARACION Y CARACTERIZACION  DE NANOPARTICULAS",@"tipo":@"3"},
+    @{@"materia":@"TECNICAS EXPERIM. EN NANOCIENCIAS Y NANOTECNOLOGIA",@"tipo":@"3"},
+    @{@"materia":@"ANALISIS DE SEÑALES BIOMEDICAS I",@"tipo":@"3"},
+    @{@"materia":@"ANALISIS DE SEÑALES BIOMEDICAS II",@"tipo":@"3"},
+    @{@"materia":@"METODOS NUMERICOS ESPECIALES",@"tipo":@"3"},
+    @{@"materia":@"FISICA MODERNA",@"tipo":@"3"},
+    @{@"materia":@"TEORIA ELECTROMAGNETICA",@"tipo":@"3"},
+    @{@"materia":@"PROCESOS ESTOCASTICOS I",@"tipo":@"3"},
+    @{@"materia":@"METODOS MATEMATICOS DE LA FISICA I",@"tipo":@"3"},
+    @{@"materia":@"INVESTIGACION DE OPERACIONES",@"tipo":@"3"},
+    @{@"materia":@"FISICA DE LOS SISTEMAS DE BAJA DIMENSIONALIDAD",@"tipo":@"3"},
+    @{@"materia":@"CONTROL OPTIMO",@"tipo":@"3"},
+    @{@"materia":@"TOPICOS DE FOTONICA",@"tipo":@"3"},
+    @{@"materia":@"CUMULOS METALICOS",@"tipo":@"3"},
+    @{@"materia":@"INTRODUCCION A LA TEORIA DE CONTROL AUTOMATICO",@"tipo":@"3"},
+    @{@"materia":@"CRISTALES SUPREMOLECULARES",@"tipo":@"3"},
+    @{@"materia":@"METODOS DE SINTESIS DE NANOESTRUCTURAS",@"tipo":@"3"},
+    @{@"materia":@"SINTESIS Y CARACTERIZACION DE PELICULAS DELGADAS",@"tipo":@"3"},
+    @{@"materia":@"METODOS MATEMATICOS DE CONTROL",@"tipo":@"3"},
+    @{@"materia":@"SISTEMAS DINAMICOS NO LINEALES I",@"tipo":@"3"},
+    @{@"materia":@"OPTICA FISICA",@"tipo":@"3"},
+    @{@"materia":@"FISICA CUANTICA",@"tipo":@"3"},
+    @{@"materia":@"FISICA DE PLASMAS",@"tipo":@"3"},
+    @{@"materia":@"INTRODUCCION A LA FUSION",@"tipo":@"3"},
+    @{@"materia":@"FISICA DE CELDAS SOLARES",@"tipo":@"3"},
+    @{@"materia":@"INTRODUCCION A LA NANOTECNOLOGIA",@"tipo":@"3"},
+    @{@"materia":@"TOPICOS AVANZADOS DE FOTONICA",@"tipo":@"3"},
+    @{@"materia":@"METODOS APLICADOS EN MICROSCOPIA ATOMICA",@"tipo":@"3"},
+    @{@"materia":@"QUIMICA DE MATERIALES",@"tipo":@"3"},
+    @{@"materia":@"ESPECTROSCOPIAS",@"tipo":@"3"},
+    @{@"materia":@"RADIOMETRIA",@"tipo":@"3"},
+    ];
+    
+    self.arrayOptativas = [[NSMutableArray alloc] initWithArray:array];
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
@@ -173,9 +222,10 @@
         return self.arrayPlanCompleto.count;
     } else if(tableView == self.tablaPlanEstudioTiempoParcial) {
         return self.arrayPlanParcial.count;
-    } else {
+    } else if(tableView == self.tablaOptativas) {
         return self.arrayOptativas.count;
     }
+    return 0;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
@@ -186,13 +236,22 @@
         dicc = [self.arrayPlanCompleto objectAtIndex:indexPath.row];
         if([[dicc objectForKey:@"tipo"] isEqualToString:@"1"]) {
             cell = [tableView dequeueReusableCellWithIdentifier:@"cellPlanMaestria"];
+            [(MaestriaPlanCompletoTableViewCell *)cell actualizaInformacion:[self.arrayPlanCompleto objectAtIndex:indexPath.row]];
         } else {
-            
+            cell = [tableView dequeueReusableCellWithIdentifier:@"maestiraSemestre"];
+            [(MaestraPlanSemestreTableViewCell *)cell actualizaInfoSemestre:[self.arrayPlanCompleto objectAtIndex:indexPath.row]];
         }
     } else if(tableView == self.tablaPlanEstudioTiempoParcial) {
-        cell = [tableView dequeueReusableCellWithIdentifier:@"cellPlanMaestria"];
+        dicc = [self.arrayPlanParcial objectAtIndex:indexPath.row];
+        if([[dicc objectForKey:@"tipo"] isEqualToString:@"1"]) {
+            cell = [tableView dequeueReusableCellWithIdentifier:@"cellPlanMaestria"];
+            [(MaestriaPlanCompletoTableViewCell *)cell actualizaInformacion:[self.arrayPlanParcial objectAtIndex:indexPath.row]];
+        } else {
+            cell = [tableView dequeueReusableCellWithIdentifier:@"maestiraSemestre"];
+            [(MaestraPlanSemestreTableViewCell *)cell actualizaInfoSemestre:[self.arrayPlanParcial objectAtIndex:indexPath.row]];
+        }
     } else {
-        
+        cell = [tableView dequeueReusableCellWithIdentifier:@"cellPlanMaestria"];
     }
     return cell;
 }

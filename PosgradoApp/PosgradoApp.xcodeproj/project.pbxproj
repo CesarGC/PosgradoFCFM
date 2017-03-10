@@ -36,6 +36,8 @@
 		63742BA91E56706D006E95CE /* DoctoradoFisicaIndustrialViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63742BA71E56706D006E95CE /* DoctoradoFisicaIndustrialViewController.xib */; };
 		638052711E2848DA0081E143 /* MainTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6380526F1E2848DA0081E143 /* MainTableViewCell.m */; };
 		638052721E2848DA0081E143 /* MainTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 638052701E2848DA0081E143 /* MainTableViewCell.xib */; };
+		63854E9B1E72186700801A59 /* MaestraPlanSemestreTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 63854E991E72186700801A59 /* MaestraPlanSemestreTableViewCell.m */; };
+		63854E9C1E72186700801A59 /* MaestraPlanSemestreTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63854E9A1E72186700801A59 /* MaestraPlanSemestreTableViewCell.xib */; };
 		6385B2251E4D13BE006DC546 /* plan_estudio.html in Resources */ = {isa = PBXBuildFile; fileRef = 6385B2241E4D13BE006DC546 /* plan_estudio.html */; };
 		638FEECB1E034124006A0BE8 /* JASidePanelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 638FEEC81E034124006A0BE8 /* JASidePanelController.m */; };
 		638FEECC1E034124006A0BE8 /* UIViewController+JASidePanel.m in Sources */ = {isa = PBXBuildFile; fileRef = 638FEECA1E034124006A0BE8 /* UIViewController+JASidePanel.m */; };
@@ -136,6 +138,9 @@
 		6380526E1E2848DA0081E143 /* MainTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainTableViewCell.h; path = MainCollectionCell/MainTableViewCell.h; sourceTree = "<group>"; };
 		6380526F1E2848DA0081E143 /* MainTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainTableViewCell.m; path = MainCollectionCell/MainTableViewCell.m; sourceTree = "<group>"; };
 		638052701E2848DA0081E143 /* MainTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MainTableViewCell.xib; path = MainCollectionCell/MainTableViewCell.xib; sourceTree = "<group>"; };
+		63854E981E72186700801A59 /* MaestraPlanSemestreTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MaestraPlanSemestreTableViewCell.h; path = MaestriaPlanEstudios/MaestraPlanSemestreTableViewCell.h; sourceTree = "<group>"; };
+		63854E991E72186700801A59 /* MaestraPlanSemestreTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MaestraPlanSemestreTableViewCell.m; path = MaestriaPlanEstudios/MaestraPlanSemestreTableViewCell.m; sourceTree = "<group>"; };
+		63854E9A1E72186700801A59 /* MaestraPlanSemestreTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MaestraPlanSemestreTableViewCell.xib; path = MaestriaPlanEstudios/MaestraPlanSemestreTableViewCell.xib; sourceTree = "<group>"; };
 		6385B2241E4D13BE006DC546 /* plan_estudio.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = plan_estudio.html; path = MaestriaPlanEstudios/plan_estudio.html; sourceTree = "<group>"; };
 		638FEEC71E034124006A0BE8 /* JASidePanelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JASidePanelController.h; path = JASidePanel/JASidePanelController.h; sourceTree = "<group>"; };
 		638FEEC81E034124006A0BE8 /* JASidePanelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JASidePanelController.m; path = JASidePanel/JASidePanelController.m; sourceTree = "<group>"; };
@@ -512,6 +517,9 @@
 				63C4B5531E6F642B00018293 /* MaestriaPlanCompletoTableViewCell.h */,
 				63C4B5541E6F642B00018293 /* MaestriaPlanCompletoTableViewCell.m */,
 				63C4B5551E6F642B00018293 /* MaestriaPlanCompletoTableViewCell.xib */,
+				63854E981E72186700801A59 /* MaestraPlanSemestreTableViewCell.h */,
+				63854E991E72186700801A59 /* MaestraPlanSemestreTableViewCell.m */,
+				63854E9A1E72186700801A59 /* MaestraPlanSemestreTableViewCell.xib */,
 			);
 			name = MaestriaPlanEstudios;
 			sourceTree = "<group>";
@@ -697,6 +705,7 @@
 				63B35C521E53C1D2008F5BE3 /* MaestriaProfesoresTableViewCell.xib in Resources */,
 				638FEEDA1E035418006A0BE8 /* FisicaIndustrialViewController.xib in Resources */,
 				63B35C4C1E53BB02008F5BE3 /* MaestriaProfesoresViewController.xib in Resources */,
+				63854E9C1E72186700801A59 /* MaestraPlanSemestreTableViewCell.xib in Resources */,
 				639FD4B01E4A94F00047A1D5 /* MaestriaRequisitosViewController.xib in Resources */,
 				63476B2F1E00BC920031F295 /* LaunchScreen.storyboard in Resources */,
 				639BF0091E2EDB2800CD3437 /* CeldasMaestriaTableViewCell.xib in Resources */,
@@ -744,6 +753,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63854E9B1E72186700801A59 /* MaestraPlanSemestreTableViewCell.m in Sources */,
 				638FEED91E035418006A0BE8 /* FisicaIndustrialViewController.m in Sources */,
 				63476B271E00BC920031F295 /* ViewController.m in Sources */,
 				63B35C511E53C1D2008F5BE3 /* MaestriaProfesoresTableViewCell.m in Sources */,

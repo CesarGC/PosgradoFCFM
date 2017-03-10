@@ -25,4 +25,10 @@
     [super setSelected:selected animated:animated];
 }
 
+- (void)actualizaInformacion:(NSDictionary *)dicc {
+    self.lblHora.text = [dicc objectForKey:@"horas"];
+    self.lblMateria.text = [dicc objectForKey:@"materia"];
+    self.lblCreditos.text = [dicc objectForKey:@"credito"];
+}
+
 @end

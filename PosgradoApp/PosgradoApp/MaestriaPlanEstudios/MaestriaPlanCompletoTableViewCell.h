@@ -10,4 +10,6 @@
 
 @interface MaestriaPlanCompletoTableViewCell : UITableViewCell
 
+- (void)actualizaInformacion:(NSDictionary *)dicc;
+
 @end
