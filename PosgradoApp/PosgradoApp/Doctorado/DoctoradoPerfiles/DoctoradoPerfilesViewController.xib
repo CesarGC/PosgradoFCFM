@@ -38,39 +38,30 @@
                                     <nil key="highlightedColor"/>
                                 </label>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hdv-YM-gAZ">
-                                    <rect key="frame" x="16" y="93" width="343" height="609"/>
-                                    <mutableString key="text">- Poseer base sólidas en física y matemáticas.
+                                    <rect key="frame" x="16" y="93" width="343" height="568.5"/>
+                                    <mutableString key="text">1. Debe tener bases sólidas en conocimientos de física y matemáticas.
 
-- Ser entusiasta e inquisitivo ante fenómenos no fácilmente explicables.
+2. Debe ser objetivo en sus juicios, creativo en sus propuestas, debe saber adaptarse a las condiciones
 
-- Tener capacidad de análisis y síntesis altamente formada.
+de trabajo, tanto individual como de grupo, disciplinado, administrar su tiempo adecuadamente, y tiene disponibilidad de tiempo completo para dedicarse al programa de Doctorado.
 
-- Ser objetivo en sus juicios.
+3. Debe saber hacer uso de las facilidades tecnológicas para realizar su trabajo eficientemente, expresar adecuadamente sus ideas, tanto en forma oral como escrita y debe ser hábil en la búsqueda y discriminación de información especializada.
 
-- Ser creativo en sus propuestas.
+4. Ser graduado de una Maestría en Física, Matemáticas o una Ingeniería afín a las orientaciones del programa
 
-- Saber adaptarse a las condiciones de trabajo, tanto individual como de grupo.
-
-- Ser disciplinado y administrado en su tiempo adecuadamente.
-
-- Tener disponibilidad de tiempo completo para dedicarse al programa de Doctorado.
-
-- Saber hacer uso de las facilidades tecnológicas para realizar su trabajo eficientemente.
-
-- Expresar adecuadamente sus ideas, tanto en forma oral como escrita.
-Ser hábil en la búsqueda y discriminación de información especializada.</mutableString>
+5. Deben ser profesionales con preparación general de las ciencias físicas, que deseen participar en el desarrollo científico, tecnológico y académico de la comunidad.</mutableString>
                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                     <nil key="textColor"/>
                                     <nil key="highlightedColor"/>
                                 </label>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Perfil del egresado" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vx7-mt-uAB">
-                                    <rect key="frame" x="8" y="722" width="171" height="23"/>
+                                    <rect key="frame" x="8" y="681.5" width="171" height="23"/>
                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
                                     <nil key="textColor"/>
                                     <nil key="highlightedColor"/>
                                 </label>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z9d-F0-BhE">
-                                    <rect key="frame" x="16" y="765" width="343" height="304.5"/>
+                                    <rect key="frame" x="16" y="724.5" width="343" height="304.5"/>
                                     <string key="text">- Será experto en alguna de nuestras líneas de investigación.
 
 - Desempeñará labores docentes de alto nivel en el área de la ingeniería física que haya seleccionado.

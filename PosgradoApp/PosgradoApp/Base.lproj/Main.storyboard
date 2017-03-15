@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -28,11 +28,15 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gX1-Bl-Pu2">
                                 <rect key="frame" x="0.0" y="20" width="375" height="47"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Posgrado FCFM" textAlignment="justified" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KdT-RA-sss">
-                                        <rect key="frame" x="76" y="0.0" width="299" height="47"/>
+                                    <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Posgrado FCFM" textAlignment="justified" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KdT-RA-sss">
+                                        <rect key="frame" x="76" y="0.0" width="241" height="47"/>
+                                        <gestureRecognizers/>
                                         <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
+                                        <connections>
+                                            <outletCollection property="gestureRecognizers" destination="eM6-va-2cD" appends="YES" id="e98-Cf-ffK"/>
+                                        </connections>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SD7-th-wz4">
                                         <rect key="frame" x="4" y="8" width="30" height="31"/>
@@ -81,8 +85,8 @@
                                     <constraint firstAttribute="height" constant="47" id="Whk-pW-07a"/>
                                     <constraint firstItem="SD7-th-wz4" firstAttribute="leading" secondItem="gX1-Bl-Pu2" secondAttribute="leading" constant="4" id="f8F-fj-Ld3"/>
                                     <constraint firstAttribute="trailing" secondItem="N2c-wA-o9L" secondAttribute="trailing" constant="8" id="n50-F6-zeH"/>
+                                    <constraint firstItem="N2c-wA-o9L" firstAttribute="leading" secondItem="KdT-RA-sss" secondAttribute="trailing" constant="20" id="oms-NV-Gz3"/>
                                     <constraint firstAttribute="bottom" secondItem="SD7-th-wz4" secondAttribute="bottom" constant="8" id="swi-cb-IXO"/>
-                                    <constraint firstAttribute="trailing" secondItem="KdT-RA-sss" secondAttribute="trailing" id="sxW-aV-1OR"/>
                                     <constraint firstItem="SD7-th-wz4" firstAttribute="top" secondItem="gX1-Bl-Pu2" secondAttribute="top" constant="8" id="yl6-ga-AtQ"/>
                                 </constraints>
                             </view>
@@ -108,6 +112,11 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="eM6-va-2cD">
+                    <connections>
+                        <action selector="actionBtnPrincipal:" destination="BYZ-38-t0r" id="3MV-Ov-wPZ"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="24.800000000000001" y="35.532233883058474"/>
         </scene>

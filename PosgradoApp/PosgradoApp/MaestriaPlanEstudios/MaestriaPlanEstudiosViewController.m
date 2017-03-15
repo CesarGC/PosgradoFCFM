@@ -251,7 +251,8 @@
             [(MaestraPlanSemestreTableViewCell *)cell actualizaInfoSemestre:[self.arrayPlanParcial objectAtIndex:indexPath.row]];
         }
     } else {
-        cell = [tableView dequeueReusableCellWithIdentifier:@"cellPlanMaestria"];
+        cell = [tableView dequeueReusableCellWithIdentifier:@"maestiraSemestre"];
+        [(MaestraPlanSemestreTableViewCell *)cell actualizaInfoSemestre:[self.arrayOptativas objectAtIndex:indexPath.row]];
     }
     return cell;
 }

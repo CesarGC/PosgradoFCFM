@@ -108,4 +108,11 @@
     [self.navigationCustom pushViewController:controller animated:YES];
 }
 
+- (IBAction)actionBtnPrincipal:(id)sender {
+//    UIViewController *controller = [self.navigationCustom.viewControllers objectAtIndex:0];
+    [self.navigationCustom popToRootViewControllerAnimated:YES];
+    self.controllerPanel.allowLeftSwipe = NO;
+}
+
+
 @end

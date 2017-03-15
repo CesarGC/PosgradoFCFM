@@ -27,7 +27,13 @@
 }
 
 - (void)actualizaInfoSemestre:(NSDictionary *)dicc {
-    self.lblSemestre.text = [dicc objectForKey:@"semestre"];
+    if([dicc objectForKey:@"semestre"]) {
+        self.lblSemestre.text = [dicc objectForKey:@"semestre"];
+    } else if([dicc objectForKey:@"materia"]) {
+        UIFont *font = self.lblSemestre.font;
+        self.lblSemestre.font = [font fontWithSize:14];
+        self.lblSemestre.text = [dicc objectForKey:@"materia"];
+    }
 }
 
 @end

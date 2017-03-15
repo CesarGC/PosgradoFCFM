@@ -32,23 +32,25 @@
                     <nil key="highlightedColor"/>
                 </label>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ck8-QQ-4hS">
-                    <rect key="frame" x="16" y="92" width="343" height="122"/>
-                    <string key="text">- Poseer conocimientos y habilidades en matemáticas y física, las cuales serán evaluadas mediante un examen escrito.
-- Poseer actitudes de interés por la investigación científica y desarrollo de nuevas tecnologías. </string>
+                    <rect key="frame" x="16" y="92" width="343" height="365.5"/>
+                    <mutableString key="text">1-Tener conocimientos en matemáticas y física a nivel de una licenciatura en ciencias exactas o ingeniería; habilidades en el uso de tecnologías para realizar su trabajo eficientemente y capacidad para expresar adecuadamente sus ideas, tanto en forma oral como escrita. Saber adaptarse a las condiciones de trabajo, tanto individual como en grupo y administrar su tiempo adecuadamente.
+
+2- Debe ser egresado de alguna licenciatura o carrera afín.
+
+3- Poseer actitudes de interés por la investigación científica y desarrollo de nuevas tecnologías, ser objetivo, creativo y disciplinado.</mutableString>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Perfil del egresado" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bCh-CS-gFP">
-                    <rect key="frame" x="16" y="230" width="158.5" height="21"/>
+                    <rect key="frame" x="16" y="473.5" width="158.5" height="21"/>
                     <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ONJ-et-Tnw">
-                    <rect key="frame" x="16" y="267" width="343" height="264"/>
-                    <string key="text">- Desarrollará trabajos de investigación en física aplicada.
-- Propondrá  proyectos de investigación en física básica.
+                    <rect key="frame" x="16" y="510.5" width="343" height="223.5"/>
+                    <string key="text">- Propondrá  proyectos de investigación en física básica.
 - Participará en la solución de problemas de la producción en el sector industrial.
 - Trabajará en grupos de investigación en la industria.
 - Desempeñará labores docentes de alto nivel en el área de la ingeniería física que haya seleccionado. 

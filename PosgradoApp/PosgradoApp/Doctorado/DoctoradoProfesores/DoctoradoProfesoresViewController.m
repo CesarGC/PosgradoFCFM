@@ -23,18 +23,18 @@
     self.tablaProfesores.dataSource = self;
     self.tablaProfesores.delegate = self;
     self.arregloProfesores = [[NSMutableArray alloc] initWithArray:@[
+                                                                     @{@"profesor":@"Dr. Romeo de Jesús Selvas Aguilar"},
                                                                      @{@"profesor":@"Dr. Arturo Alberto Castillo Guzmán"},
                                                                      @{@"profesor":@"Dr. Carlos Luna Criado"},
-                                                                     @{@"profesor":@"Dr. Daniel Enrique Ceballos Herrera"},
-                                                                     @{@"profesor":@"Dr. Eduardo Gerardo Pérez Tijerina"},
-                                                                     @{@"profesor":@"Dr. Manuel Alejandro Jiménez Lizarraga"},
-                                                                     @{@"profesor":@"Dr. Manuel García Méndez"},
-                                                                     @{@"profesor":@"Dr. Mikhail Valentinovich Basin"},
-                                                                     @{@"profesor":@"Dr. Pablo César Rodríguez Ramírez"},
-                                                                     @{@"profesor":@"Dr. Romeo de Jesús Selvas Aguilar"},
+                                                                     @{@"profesor":@"Dr. José Rubén Morones Ibarra"},
+                                                                     @{@"profesor":@"Dr. Manuel Alejandro Jiménez Lizárraga"},
                                                                      @{@"profesor":@"Dr. Sergio Javier Mejía Rosales"},
-                                                                     @{@"profesor":@"Dra. Nora Elizondo Villarreal"},
-                                                                     @{@"profesor":@"Dra. Oxana Vasilievna Kharissova"}]];
+                                                                     @{@"profesor":@"Dr. Eduardo Pérez Tijerina"},
+                                                                     @{@"profesor":@"Dr. Ricardo Iván Álvarez Tamayo"},
+                                                                     @{@"profesor":@"Dra. María Aracelia Alcorta García"},
+                                                                     @{@"profesor":@"Dr. Mikhail Valentinovich Basin"},
+                                                                     @{@"profesor":@"Dr. Oxana Vasilievna Kharissova"},
+                                                                     @{@"profesor":@"Dr. Jorge Luis Menchaca Arredondo"}]];
     [self.tablaProfesores registerNib:[UINib nibWithNibName:@"MaestriaProfesoresTableViewCell" bundle:nil] forCellReuseIdentifier:@"maestriaProfesor"];
     [self.tablaProfesores reloadData];
 }
@@ -53,29 +53,27 @@
     UISegmentedControl *control = sender;
     if([control selectedSegmentIndex] == 0) {
         self.arregloProfesores = [[NSMutableArray alloc] initWithArray:@[
+                                                                         @{@"profesor":@"Dr. Romeo de Jesús Selvas Aguilar"},
                                                                          @{@"profesor":@"Dr. Arturo Alberto Castillo Guzmán"},
                                                                          @{@"profesor":@"Dr. Carlos Luna Criado"},
-                                                                         @{@"profesor":@"Dr. Daniel Enrique Ceballos Herrera"},
-                                                                         @{@"profesor":@"Dr. Eduardo Gerardo Pérez Tijerina"},
-                                                                         @{@"profesor":@"Dr. Manuel Alejandro Jiménez Lizarraga"},
-                                                                         @{@"profesor":@"Dr. Manuel García Méndez"},
-                                                                         @{@"profesor":@"Dr. Mikhail Valentinovich Basin"},
-                                                                         @{@"profesor":@"Dr. Pablo César Rodríguez Ramírez"},
-                                                                         @{@"profesor":@"Dr. Romeo de Jesús Selvas Aguilar"},
+                                                                         @{@"profesor":@"Dr. José Rubén Morones Ibarra"},
+                                                                         @{@"profesor":@"Dr. Manuel Alejandro Jiménez Lizárraga"},
                                                                          @{@"profesor":@"Dr. Sergio Javier Mejía Rosales"},
-                                                                         @{@"profesor":@"Dra. Nora Elizondo Villarreal"},
-                                                                         @{@"profesor":@"Dra. Oxana Vasilievna Kharissova"}]];
+                                                                         @{@"profesor":@"Dr. Eduardo Pérez Tijerina"},
+                                                                         @{@"profesor":@"Dr. Ricardo Iván Álvarez Tamayo"},
+                                                                         @{@"profesor":@"Dra. María Aracelia Alcorta García"},
+                                                                         @{@"profesor":@"Dr. Mikhail Valentinovich Basin"},
+                                                                         @{@"profesor":@"Dr. Oxana Vasilievna Kharissova"},
+                                                                         @{@"profesor":@"Dr. Jorge Luis Menchaca Arredondo"}]];
     } else {
         self.arregloProfesores = [[NSMutableArray alloc] initWithArray:@[
                                                                          @{@"profesor":@"Dr. Edgar Martínez Guerra"},
-                                                                         @{@"profesor":@"Dr. Javier Fco. Almaguer  Martínez"},
-                                                                         @{@"profesor":@"Dr. Joel  Pérez Padrón"},
-                                                                         @{@"profesor":@"Dr. Jorge Luis Menchaca Arredondo"},
-                                                                         @{@"profesor":@"Dr. José Rubén Morones Ibarra"},
-                                                                         @{@"profesor":@"Dr. María Aracelia Alcorta García"},
                                                                          @{@"profesor":@"Dr. Miguel Ángel Gracia Pinilla"},
                                                                          @{@"profesor":@"Dr. Omar González Amezcua"},
-                                                                         @{@"profesor":@"Dr. Sergio Belmares Perales"}]];
+                                                                         @{@"profesor":@"Dr. Sergio Belmares Perales"},
+                                                                         @{@"profesor":@"Dra. Nora Elizondo Villarreal"},
+                                                                         @{@"profesor":@"Dr. Alfredo Tlahuice Flores"},
+                                                                         @{@"profesor":@"Dra. Diana Berenice Hernández Uresti"}]];
     }
     [self.tablaProfesores reloadData];
 }
