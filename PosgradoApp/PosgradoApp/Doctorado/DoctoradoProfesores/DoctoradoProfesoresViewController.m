@@ -73,7 +73,18 @@
                                                                          @{@"profesor":@"Dr. Sergio Belmares Perales"},
                                                                          @{@"profesor":@"Dra. Nora Elizondo Villarreal"},
                                                                          @{@"profesor":@"Dr. Alfredo Tlahuice Flores"},
-                                                                         @{@"profesor":@"Dra. Diana Berenice Hernández Uresti"}]];
+                                                                         @{@"profesor":@"Dra. Diana Berenice Hernández Uresti"},
+                                                                        @{@"profesor":@"Dr. Alfredo Tlahuice Flores"},
+                                                                         @{@"profesor":@"Dr. Claudio Davet Guitérrez Lazos"},
+                                                                         @{@"profesor":@"Dr. Pablo César Rodríguez Ramírez"},
+                                                                         @{@"profesor":@"Dr. Francisco Javier Almaguer Martínez"},
+                                                                         @{@"profesor":@"Dr. Francisco José Solis Pomar"},
+                                                                         @{@"profesor":@"Dr. Guillermo Salceda Delgado"},
+                                                                         @{@"profesor":@"Dr. Joel Pérez Padrón"},
+                                                                         @{@"profesor":@"Dra. Raquel Mendoza Reséndez"},
+                                                                         @{@"profesor":@"Dr. Francisco Vicente Flores Báez"},
+                                                                         @{@"profesor":@"Dr. Sergio Alberto Obregón Alfaro"},
+                                                                         @{@"profesor":@"Dr. Valentín Guzmán Ramos"}]];
     }
     [self.tablaProfesores reloadData];
 }
