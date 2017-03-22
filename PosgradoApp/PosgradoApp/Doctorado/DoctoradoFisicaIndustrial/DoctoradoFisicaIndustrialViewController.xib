@@ -27,33 +27,33 @@
                             <rect key="frame" x="0.0" y="0.0" width="375" height="722"/>
                             <subviews>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Doctorado en Ing. Física Industrial" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mY7-oU-clR">
-                                    <rect key="frame" x="8" y="8" width="310" height="23"/>
-                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
+                                    <rect key="frame" x="8" y="8" width="281" height="20"/>
+                                    <fontDescription key="fontDescription" name="GillSans-BoldItalic" family="Gill Sans" pointSize="17"/>
                                     <nil key="textColor"/>
                                     <nil key="highlightedColor"/>
                                 </label>
                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fisica" translatesAutoresizingMaskIntoConstraints="NO" id="fmD-l3-47O">
-                                    <rect key="frame" x="8" y="47" width="359" height="191.5"/>
+                                    <rect key="frame" x="8" y="44" width="359" height="191.5"/>
                                     <constraints>
                                         <constraint firstAttribute="width" secondItem="fmD-l3-47O" secondAttribute="height" multiplier="15:8" id="tbq-Iw-rZL"/>
                                     </constraints>
                                 </imageView>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Misión y visión" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="brR-FV-TcC">
-                                    <rect key="frame" x="8" y="254.5" width="112" height="21"/>
-                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <rect key="frame" x="8" y="251.5" width="121.5" height="20"/>
+                                    <fontDescription key="fontDescription" name="GillSans-BoldItalic" family="Gill Sans" pointSize="17"/>
                                     <nil key="textColor"/>
                                     <nil key="highlightedColor"/>
                                 </label>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nUp-ug-ASx">
-                                    <rect key="frame" x="8" y="291.5" width="359" height="284.5"/>
-                                    <mutableString key="text">La misión del Doctorado en Ingeniería Física Industrial es la de preparar especialistas capacitados y emprendedores capaces de desarrollar proyectos basado en tecnología y contribuir con ello en el mejoramiento de las condiciones de la comunidad general.
-La visión del Doctorado en Ingeniería Física Industrial es la de un programa orientado a investigación de frontera, con una planta docente y de investigación reconocida internacionalmente por su producción científica y tecnológica, y por la preparación de recursos humanos en investigación y desarrollo de calidad mundial.</mutableString>
-                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <rect key="frame" x="8" y="287.5" width="359" height="254"/>
+                                    <string key="text">La misión del Doctorado en Ingeniería Física Industrial es la de preparar especialistas capacitados y emprendedores capaces de desarrollar proyectos basado en tecnología y contribuir con ello en el mejoramiento de las condiciones de la comunidad general.
+La visión del Doctorado en Ingeniería Física Industrial es la de un programa orientado a investigación de frontera, con una planta docente y de investigación reconocida internacionalmente por su producción científica y tecnológica, y por la preparación de recursos humanos en investigación y desarrollo de calidad mundial.</string>
+                                    <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="17"/>
                                     <nil key="textColor"/>
                                     <nil key="highlightedColor"/>
                                 </label>
                             </subviews>
-                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                             <constraints>
                                 <constraint firstItem="brR-FV-TcC" firstAttribute="top" secondItem="fmD-l3-47O" secondAttribute="bottom" constant="16" id="5uk-2V-WvM"/>
                                 <constraint firstItem="mY7-oU-clR" firstAttribute="leading" secondItem="O1g-XI-ECN" secondAttribute="leading" constant="8" id="Qz3-dl-NPl"/>
@@ -76,7 +76,7 @@ La visión del Doctorado en Ingeniería Física Industrial es la de un programa 
                     </constraints>
                 </scrollView>
             </subviews>
-            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color key="backgroundColor" red="0.86666666670000003" green="0.86666666670000003" blue="0.86666666670000003" alpha="1" colorSpace="calibratedRGB"/>
             <constraints>
                 <constraint firstItem="Y0K-Pr-RhA" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Ckv-Q3-R1O"/>
                 <constraint firstAttribute="trailing" secondItem="Y0K-Pr-RhA" secondAttribute="trailing" id="jJ7-Vf-zVq"/>

@@ -26,20 +26,20 @@
                             <rect key="frame" x="0.0" y="0.0" width="375" height="1123"/>
                             <subviews>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Perfiles" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YCG-KN-Xrg">
-                                    <rect key="frame" x="8" y="18" width="73" height="24"/>
-                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                    <rect key="frame" x="8" y="18" width="61" height="20"/>
+                                    <fontDescription key="fontDescription" name="GillSans-BoldItalic" family="Gill Sans" pointSize="17"/>
                                     <nil key="textColor"/>
                                     <nil key="highlightedColor"/>
                                 </label>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Perfil de ingreso" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Gd-p0-s52">
-                                    <rect key="frame" x="8" y="50" width="148.5" height="23"/>
-                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
+                                    <rect key="frame" x="8" y="46" width="133" height="20"/>
+                                    <fontDescription key="fontDescription" name="GillSans-BoldItalic" family="Gill Sans" pointSize="17"/>
                                     <nil key="textColor"/>
                                     <nil key="highlightedColor"/>
                                 </label>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hdv-YM-gAZ">
-                                    <rect key="frame" x="16" y="93" width="343" height="568.5"/>
-                                    <mutableString key="text">1. Debe tener bases sólidas en conocimientos de física y matemáticas.
+                                    <rect key="frame" x="16" y="86" width="343" height="547"/>
+                                    <string key="text">1. Debe tener bases sólidas en conocimientos de física y matemáticas.
 
 2. Debe ser objetivo en sus juicios, creativo en sus propuestas, debe saber adaptarse a las condiciones
 
@@ -49,19 +49,19 @@ de trabajo, tanto individual como de grupo, disciplinado, administrar su tiempo 
 
 4. Ser graduado de una Maestría en Física, Matemáticas o una Ingeniería afín a las orientaciones del programa
 
-5. Deben ser profesionales con preparación general de las ciencias físicas, que deseen participar en el desarrollo científico, tecnológico y académico de la comunidad.</mutableString>
-                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+5. Deben ser profesionales con preparación general de las ciencias físicas, que deseen participar en el desarrollo científico, tecnológico y académico de la comunidad.</string>
+                                    <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="17"/>
                                     <nil key="textColor"/>
                                     <nil key="highlightedColor"/>
                                 </label>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Perfil del egresado" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vx7-mt-uAB">
-                                    <rect key="frame" x="8" y="681.5" width="171" height="23"/>
-                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
+                                    <rect key="frame" x="8" y="653" width="152.5" height="20"/>
+                                    <fontDescription key="fontDescription" name="GillSans-BoldItalic" family="Gill Sans" pointSize="17"/>
                                     <nil key="textColor"/>
                                     <nil key="highlightedColor"/>
                                 </label>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z9d-F0-BhE">
-                                    <rect key="frame" x="16" y="724.5" width="343" height="304.5"/>
+                                    <rect key="frame" x="16" y="693" width="343" height="273.5"/>
                                     <string key="text">- Será experto en alguna de nuestras líneas de investigación.
 
 - Desempeñará labores docentes de alto nivel en el área de la ingeniería física que haya seleccionado.
@@ -70,12 +70,12 @@ de trabajo, tanto individual como de grupo, disciplinado, administrar su tiempo 
 
 - Desempeñará resultados en su investigación que serán reconocidos por ante la comunidad científica nacional e internacional.
 </string>
-                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="17"/>
                                     <nil key="textColor"/>
                                     <nil key="highlightedColor"/>
                                 </label>
                             </subviews>
-                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                             <constraints>
                                 <constraint firstItem="6Gd-p0-s52" firstAttribute="leading" secondItem="aSq-UP-djN" secondAttribute="leading" constant="8" id="05n-xI-ict"/>
                                 <constraint firstAttribute="trailing" secondItem="z9d-F0-BhE" secondAttribute="trailing" constant="16" id="0xe-SW-nrw"/>
@@ -96,11 +96,11 @@ de trabajo, tanto individual como de grupo, disciplinado, administrar su tiempo 
                         <constraint firstItem="aSq-UP-djN" firstAttribute="leading" secondItem="yhh-ki-D9U" secondAttribute="leading" id="1e4-U6-CYv"/>
                         <constraint firstAttribute="trailing" secondItem="aSq-UP-djN" secondAttribute="trailing" id="YjI-qt-vdt"/>
                         <constraint firstItem="aSq-UP-djN" firstAttribute="top" secondItem="yhh-ki-D9U" secondAttribute="top" id="ifp-nH-bqc"/>
-                        <constraint firstAttribute="bottom" secondItem="aSq-UP-djN" secondAttribute="bottom" constant="500" id="u4i-LA-s0e"/>
+                        <constraint firstAttribute="bottom" secondItem="aSq-UP-djN" secondAttribute="bottom" constant="800" id="u4i-LA-s0e"/>
                     </constraints>
                 </scrollView>
             </subviews>
-            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color key="backgroundColor" red="0.86666666670000003" green="0.86666666670000003" blue="0.86666666670000003" alpha="1" colorSpace="calibratedRGB"/>
             <constraints>
                 <constraint firstItem="yhh-ki-D9U" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="1xw-8F-OPQ"/>
                 <constraint firstItem="yhh-ki-D9U" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="U13-Rt-pTU"/>

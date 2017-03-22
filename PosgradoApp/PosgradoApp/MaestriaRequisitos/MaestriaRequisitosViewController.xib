@@ -25,20 +25,20 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Sun-db-Psl">
-                    <rect key="frame" x="0.0" y="64" width="375" height="2861"/>
+                    <rect key="frame" x="0.0" y="62" width="375" height="2863"/>
                     <subviews>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="seY-HN-NpU">
-                            <rect key="frame" x="0.0" y="0.0" width="375" height="2667"/>
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="2345.5"/>
                             <subviews>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Requisitos de admisión" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pW4-PW-wCE">
-                                    <rect key="frame" x="16" y="10" width="200" height="21"/>
-                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                    <rect key="frame" x="16" y="10" width="186" height="20"/>
+                                    <fontDescription key="fontDescription" name="GillSans-BoldItalic" family="Gill Sans" pointSize="17"/>
                                     <nil key="textColor"/>
                                     <nil key="highlightedColor"/>
                                 </label>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zzP-34-fQL">
-                                    <rect key="frame" x="16" y="47" width="343" height="1258"/>
-                                    <mutableString key="text">1- Presentar su documentación completa ante la División de Estudios de Posgrado de la FCFM:
+                                    <rect key="frame" x="16" y="46" width="343" height="1074"/>
+                                    <string key="text">1- Presentar su documentación completa ante la División de Estudios de Posgrado de la FCFM:
 
 	a) Solicitud de ingreso debidamente llenada y firmada por la persona interesada (solicitada en el depto. de Escolar de la FCFM).
 	b) Copia de título de Licenciatura.
@@ -57,20 +57,20 @@
 
 6- Establecer el compromiso de dedicar tiempo completo a las actividades académicas que se desarrollen cada semestre.
 
-7- Cumplir con los requisitos administrativos para el ingreso a posgrado señalados por el Departamento Escolar y de Archivo de la UANL.</mutableString>
-                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+7- Cumplir con los requisitos administrativos para el ingreso a posgrado señalados por el Departamento Escolar y de Archivo de la UANL.</string>
+                                    <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="17"/>
                                     <nil key="textColor"/>
                                     <nil key="highlightedColor"/>
                                 </label>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Requisitos de Permanencia" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hb6-pd-mEa">
-                                    <rect key="frame" x="16" y="1336.5" width="234.5" height="21"/>
-                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                    <rect key="frame" x="16" y="1151.5" width="219" height="20"/>
+                                    <fontDescription key="fontDescription" name="GillSans-BoldItalic" family="Gill Sans" pointSize="17"/>
                                     <nil key="textColor"/>
                                     <nil key="highlightedColor"/>
                                 </label>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xA8-Kb-P7s">
-                                    <rect key="frame" x="16" y="1373.5" width="343" height="548"/>
-                                    <mutableString key="text">1- Mantener el compromiso respecto al tiempo dedicado al programa.
+                                    <rect key="frame" x="16" y="1187.5" width="343" height="469"/>
+                                    <string key="text">1- Mantener el compromiso respecto al tiempo dedicado al programa.
 
 2- No reprobar más de una unidad de aprendizaje (la calificación mínima aprobatoria es de 80, dentro de una escala del 0 al 100).
 
@@ -82,32 +82,32 @@
 
 6- Mostrar evidencia de actualización de Curriculum Vitae Único (CVU) en la plataforma de CONACyT.
 
-7- Para becarios de CONACyT, el compromiso de dedicación de tiempo completo.</mutableString>
-                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+7- Para becarios de CONACyT, el compromiso de dedicación de tiempo completo.</string>
+                                    <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="17"/>
                                     <nil key="textColor"/>
                                     <nil key="highlightedColor"/>
                                 </label>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Requisitos de Egreso" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Na6-5T-Ad4">
-                                    <rect key="frame" x="16" y="1937.5" width="181.5" height="21"/>
-                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                    <rect key="frame" x="16" y="1672.5" width="166.5" height="20"/>
+                                    <fontDescription key="fontDescription" name="GillSans-BoldItalic" family="Gill Sans" pointSize="17"/>
                                     <nil key="textColor"/>
                                     <nil key="highlightedColor"/>
                                 </label>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZuJ-Re-eo1">
-                                    <rect key="frame" x="16" y="1974.5" width="343" height="426.5"/>
-                                    <mutableString key="text">1- Haber acreditado todas las unidades de aprendizaje del programa académico conforme al plazo indicado en el plan de estudios. 
+                                    <rect key="frame" x="16" y="1708.5" width="343" height="371"/>
+                                    <string key="text">1- Haber acreditado todas las unidades de aprendizaje del programa académico conforme al plazo indicado en el plan de estudios. 
 
 2- Cumplir con los requisitos que señala el Departamento Escolar y de Archivo, así como también aquellos que establece la Dirección General de Estudios de Posgrado de la UANL.
 
 3- Realizar una tesis bajo la dirección de un asesor, el cual es designado de acuerdo con el reglamento interno de la FCFM.
 
-4- Aprobar el examen de grado de maestría que consiste en la presentación y sustentación de una tesis derivada de su proyecto. El examen de grado se sustentará en forma de disertación, en español y sin límite de tiempo. Deberá ser público.</mutableString>
-                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+4- Aprobar el examen de grado de maestría que consiste en la presentación y sustentación de una tesis derivada de su proyecto. El examen de grado se sustentará en forma de disertación, en español y sin límite de tiempo. Deberá ser público.</string>
+                                    <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="17"/>
                                     <nil key="textColor"/>
                                     <nil key="highlightedColor"/>
                                 </label>
                             </subviews>
-                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                             <constraints>
                                 <constraint firstItem="xA8-Kb-P7s" firstAttribute="top" secondItem="hb6-pd-mEa" secondAttribute="bottom" constant="16" id="73f-cC-Ae2"/>
                                 <constraint firstItem="zzP-34-fQL" firstAttribute="leading" secondItem="seY-HN-NpU" secondAttribute="leading" constant="16" id="D0x-fu-AuB"/>
@@ -136,13 +136,13 @@
                     </constraints>
                 </scrollView>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Requisitos" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8eZ-AZ-mRL">
-                    <rect key="frame" x="8" y="20" width="101.5" height="24"/>
-                    <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                    <rect key="frame" x="8" y="20" width="93" height="22"/>
+                    <fontDescription key="fontDescription" name="GillSans-BoldItalic" family="Gill Sans" pointSize="19"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
             </subviews>
-            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color key="backgroundColor" red="0.86666666670000003" green="0.86666666670000003" blue="0.86666666670000003" alpha="1" colorSpace="calibratedRGB"/>
             <constraints>
                 <constraint firstItem="seY-HN-NpU" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" id="4s7-8t-t98"/>
                 <constraint firstItem="Sun-db-Psl" firstAttribute="top" secondItem="8eZ-AZ-mRL" secondAttribute="bottom" constant="20" id="66g-QS-bAA"/>

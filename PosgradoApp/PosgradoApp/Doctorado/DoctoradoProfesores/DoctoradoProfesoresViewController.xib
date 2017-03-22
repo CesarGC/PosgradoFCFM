@@ -25,13 +25,13 @@
                     <rect key="frame" x="0.0" y="0.0" width="320" height="33.5"/>
                     <subviews>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Profesores" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oNh-47-taM">
-                            <rect key="frame" x="8" y="7" width="82.5" height="21"/>
-                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <rect key="frame" x="8" y="7.5" width="86.5" height="20"/>
+                            <fontDescription key="fontDescription" name="GillSans-BoldItalic" family="Gill Sans" pointSize="17"/>
                             <nil key="textColor"/>
                             <nil key="highlightedColor"/>
                         </label>
                     </subviews>
-                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     <constraints>
                         <constraint firstItem="oNh-47-taM" firstAttribute="centerY" secondItem="QK1-V4-69o" secondAttribute="centerY" id="4RM-2l-fwf"/>
                         <constraint firstItem="oNh-47-taM" firstAttribute="leading" secondItem="QK1-V4-69o" secondAttribute="leading" constant="8" id="Huc-Y7-eDU"/>
@@ -54,7 +54,7 @@
                             </connections>
                         </segmentedControl>
                     </subviews>
-                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     <constraints>
                         <constraint firstAttribute="trailing" secondItem="68p-Ee-dPR" secondAttribute="trailing" constant="16" id="5Qf-0W-8Dc"/>
                         <constraint firstItem="68p-Ee-dPR" firstAttribute="leading" secondItem="2Pg-nx-sh3" secondAttribute="leading" constant="16" id="azh-QG-5mZ"/>
@@ -66,10 +66,10 @@
                     <subviews>
                         <tableView clipsSubviews="YES" contentMode="scaleToFill" bounces="NO" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Hc1-4X-Nqn">
                             <rect key="frame" x="0.0" y="0.0" width="320" height="408"/>
-                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                         </tableView>
                     </subviews>
-                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     <constraints>
                         <constraint firstAttribute="trailing" secondItem="Hc1-4X-Nqn" secondAttribute="trailing" id="CXU-te-dvI"/>
                         <constraint firstItem="Hc1-4X-Nqn" firstAttribute="top" secondItem="lUB-il-Ac6" secondAttribute="top" id="Eev-E0-Rzy"/>
@@ -78,7 +78,7 @@
                     </constraints>
                 </view>
             </subviews>
-            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color key="backgroundColor" red="0.86666666670000003" green="0.86666666670000003" blue="0.86666666670000003" alpha="1" colorSpace="calibratedRGB"/>
             <constraints>
                 <constraint firstAttribute="trailing" secondItem="QK1-V4-69o" secondAttribute="trailing" id="8OD-o7-izN"/>
                 <constraint firstAttribute="trailing" secondItem="2Pg-nx-sh3" secondAttribute="trailing" id="8q7-F8-AbA"/>
