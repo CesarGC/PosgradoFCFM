@@ -114,5 +114,25 @@
     self.controllerPanel.allowLeftSwipe = NO;
 }
 
+- (IBAction)actionShare:(id)sender {
+    NSString *textToShare = @"Revisa la información acerca de la maestria y doctorado de Fisica Industrial con este enlace";
+    NSURL *myWebsite = [NSURL URLWithString:@"http://www.fcfm.uanl.mx/es/Posgrado"];
+    
+    NSArray *objectsToShare = @[textToShare, myWebsite];
+    
+    UIActivityViewController *activityVC = [[UIActivityViewController alloc] initWithActivityItems:objectsToShare applicationActivities:nil];
+    
+    NSArray *excludeActivities = @[UIActivityTypeAirDrop,
+                                   UIActivityTypePrint,
+                                   UIActivityTypeAssignToContact,
+                                   UIActivityTypeSaveToCameraRoll,
+                                   UIActivityTypeAddToReadingList,
+                                   UIActivityTypePostToFlickr,
+                                   UIActivityTypePostToVimeo];
+    
+    activityVC.excludedActivityTypes = excludeActivities;
+    
+    [self presentViewController:activityVC animated:YES completion:nil];
+}
 
 @end

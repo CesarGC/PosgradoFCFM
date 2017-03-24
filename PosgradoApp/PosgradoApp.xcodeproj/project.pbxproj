@@ -61,6 +61,8 @@
 		639FD4B61E4A99E80047A1D5 /* MaestriaPlanEstudiosViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 639FD4B41E4A99E80047A1D5 /* MaestriaPlanEstudiosViewController.xib */; };
 		63A65ACE1E381F0F000C8AF4 /* MapaPosgradoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63A65ACC1E381F0F000C8AF4 /* MapaPosgradoViewController.m */; };
 		63A65ACF1E381F0F000C8AF4 /* MapaPosgradoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63A65ACD1E381F0F000C8AF4 /* MapaPosgradoViewController.xib */; };
+		63A8B80C1E8490630024C207 /* ContactoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63A8B80A1E8490630024C207 /* ContactoViewController.m */; };
+		63A8B80D1E8490630024C207 /* ContactoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63A8B80B1E8490630024C207 /* ContactoViewController.xib */; };
 		63B35C4B1E53BB02008F5BE3 /* MaestriaProfesoresViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B35C491E53BB02008F5BE3 /* MaestriaProfesoresViewController.m */; };
 		63B35C4C1E53BB02008F5BE3 /* MaestriaProfesoresViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63B35C4A1E53BB02008F5BE3 /* MaestriaProfesoresViewController.xib */; };
 		63B35C511E53C1D2008F5BE3 /* MaestriaProfesoresTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B35C4F1E53C1D2008F5BE3 /* MaestriaProfesoresTableViewCell.m */; };
@@ -177,6 +179,9 @@
 		63A65ACB1E381F0F000C8AF4 /* MapaPosgradoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MapaPosgradoViewController.h; path = MapaPosgrado/MapaPosgradoViewController.h; sourceTree = "<group>"; };
 		63A65ACC1E381F0F000C8AF4 /* MapaPosgradoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MapaPosgradoViewController.m; path = MapaPosgrado/MapaPosgradoViewController.m; sourceTree = "<group>"; };
 		63A65ACD1E381F0F000C8AF4 /* MapaPosgradoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MapaPosgradoViewController.xib; path = MapaPosgrado/MapaPosgradoViewController.xib; sourceTree = "<group>"; };
+		63A8B8091E8490630024C207 /* ContactoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactoViewController.h; sourceTree = "<group>"; };
+		63A8B80A1E8490630024C207 /* ContactoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactoViewController.m; sourceTree = "<group>"; };
+		63A8B80B1E8490630024C207 /* ContactoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContactoViewController.xib; sourceTree = "<group>"; };
 		63B35C481E53BB02008F5BE3 /* MaestriaProfesoresViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MaestriaProfesoresViewController.h; path = MaestriaProfesores/MaestriaProfesoresViewController.h; sourceTree = "<group>"; };
 		63B35C491E53BB02008F5BE3 /* MaestriaProfesoresViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MaestriaProfesoresViewController.m; path = MaestriaProfesores/MaestriaProfesoresViewController.m; sourceTree = "<group>"; };
 		63B35C4A1E53BB02008F5BE3 /* MaestriaProfesoresViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MaestriaProfesoresViewController.xib; path = MaestriaProfesores/MaestriaProfesoresViewController.xib; sourceTree = "<group>"; };
@@ -243,6 +248,7 @@
 			isa = PBXGroup;
 			children = (
 				63742B781E565BE2006E95CE /* Doctorado */,
+				63A8B8081E84902C0024C207 /* ContactoViewController */,
 				63B35C461E53B99A008F5BE3 /* Maestria */,
 				6385B2231E4D139A006DC546 /* DataFileHTML */,
 				63914D001E3AB1EF00A20FE0 /* MapAnnotation */,
@@ -534,6 +540,16 @@
 			name = MapaPosgrado;
 			sourceTree = "<group>";
 		};
+		63A8B8081E84902C0024C207 /* ContactoViewController */ = {
+			isa = PBXGroup;
+			children = (
+				63A8B8091E8490630024C207 /* ContactoViewController.h */,
+				63A8B80A1E8490630024C207 /* ContactoViewController.m */,
+				63A8B80B1E8490630024C207 /* ContactoViewController.xib */,
+			);
+			name = ContactoViewController;
+			sourceTree = "<group>";
+		};
 		63B35C461E53B99A008F5BE3 /* Maestria */ = {
 			isa = PBXGroup;
 			children = (
@@ -706,6 +722,7 @@
 				638FEEDA1E035418006A0BE8 /* FisicaIndustrialViewController.xib in Resources */,
 				63B35C4C1E53BB02008F5BE3 /* MaestriaProfesoresViewController.xib in Resources */,
 				63854E9C1E72186700801A59 /* MaestraPlanSemestreTableViewCell.xib in Resources */,
+				63A8B80D1E8490630024C207 /* ContactoViewController.xib in Resources */,
 				639FD4B01E4A94F00047A1D5 /* MaestriaRequisitosViewController.xib in Resources */,
 				63476B2F1E00BC920031F295 /* LaunchScreen.storyboard in Resources */,
 				639BF0091E2EDB2800CD3437 /* CeldasMaestriaTableViewCell.xib in Resources */,
@@ -783,6 +800,7 @@
 				63476B561E00C0D10031F295 /* MainViewController.m in Sources */,
 				63742B911E5661CD006E95CE /* DoctoradoProfesoresViewController.m in Sources */,
 				638FEEDE1E0356BD006A0BE8 /* CustonNavigationViewController.m in Sources */,
+				63A8B80C1E8490630024C207 /* ContactoViewController.m in Sources */,
 				638FEECC1E034124006A0BE8 /* UIViewController+JASidePanel.m in Sources */,
 				639BF0021E2ED6C800CD3437 /* TablaMaestriaViewController.m in Sources */,
 			);

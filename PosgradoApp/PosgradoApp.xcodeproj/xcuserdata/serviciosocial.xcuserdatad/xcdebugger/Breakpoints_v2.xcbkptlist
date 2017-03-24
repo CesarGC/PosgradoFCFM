@@ -36,11 +36,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "PosgradoApp/MainController/MainViewController.m"
-            timestampString = "508203067.205135"
+            timestampString = "512006070.900824"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "58"
-            endingLineNumber = "58"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
             landmarkName = "-mapAction:"
             landmarkType = "7">
          </BreakpointContent>
@@ -52,11 +52,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "PosgradoApp/MainController/MainViewController.m"
-            timestampString = "508202834.739054"
+            timestampString = "512006070.900824"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "57"
-            endingLineNumber = "57"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
             landmarkName = "-mapAction:"
             landmarkType = "7">
          </BreakpointContent>
@@ -138,6 +138,22 @@
             startingLineNumber = "113"
             endingLineNumber = "113"
             landmarkName = "-actionBtnPrincipal:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PosgradoApp/MainController/MainViewController.m"
+            timestampString = "512006082.411181"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "85"
+            endingLineNumber = "85"
+            landmarkName = "-entroContacto:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

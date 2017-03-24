@@ -12,7 +12,9 @@
 #import "TablaMaestriaViewController.h"
 #import "MapaPosgradoViewController.h"
 #import "FisicaIndustrialViewController.h"
+#import "ContactoViewController.h"
 #import "DoctoradoFisicaIndustrialViewController.h"
+
 @interface MainViewController ()
 
 //@property (weak, nonatomic) IBOutlet UITableView *tableViewMain;
@@ -79,5 +81,9 @@
     [self.delegado cambiarViewController:controller withArray:nil];
 }
 
+- (IBAction)entroContacto:(id)sender {
+    ContactoViewController *controller = [[ContactoViewController alloc] initWithNibName:@"ContactoViewController" bundle:nil];
+    [self.delegado cambiarViewController:controller withArray:nil];
+}
 
 @end
