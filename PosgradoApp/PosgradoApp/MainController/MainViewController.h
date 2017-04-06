@@ -11,6 +11,7 @@
 @protocol MenuSeleccionDelegate <NSObject>
 
 - (void) cambiarViewController:(UIViewController *)controller withArray:(NSArray *)arrayMenu;
+- (void) presentarControllerPDF:(UIViewController *)controller;
 
 @end
 

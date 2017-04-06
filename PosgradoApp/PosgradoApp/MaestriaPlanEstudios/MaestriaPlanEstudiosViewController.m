@@ -9,6 +9,7 @@
 #import "MaestriaPlanEstudiosViewController.h"
 #import "MaestriaPlanCompletoTableViewCell.h"
 #import "MaestraPlanSemestreTableViewCell.h"
+#import "MaestriaPDFViewController.h"
 
 @interface MaestriaPlanEstudiosViewController () <UITableViewDelegate, UITableViewDataSource>
 
@@ -260,5 +261,15 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
 }
+
+- (IBAction)actionPDF:(id)sender {
+    
+    MaestriaPDFViewController *controller = [[MaestriaPDFViewController alloc] initWithNibName:@"MaestriaPDFViewController" bundle:nil];
+//    [self presentViewController:controller animated:YES completion:^{
+//        
+//    }];
+    [self.delegado presentarPDFController:controller];
+}
+
 
 @end

@@ -23,7 +23,7 @@
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
-            <rect key="frame" x="0.0" y="0.0" width="375" height="980"/>
+            <rect key="frame" x="0.0" y="0.0" width="375" height="1061"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Plan de Estudios" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H4U-EQ-E3v">
@@ -36,17 +36,17 @@
                     <nil key="highlightedColor"/>
                 </label>
                 <webView hidden="YES" contentMode="scaleToFill" scalesPageToFit="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vYs-QL-5G2">
-                    <rect key="frame" x="0.0" y="62" width="375" height="918"/>
+                    <rect key="frame" x="0.0" y="62" width="375" height="999"/>
                     <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                 </webView>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Yz7-8I-0iA">
-                    <rect key="frame" x="0.0" y="78" width="375" height="902"/>
+                    <rect key="frame" x="0.0" y="78" width="375" height="983"/>
                     <subviews>
                         <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jTl-eb-NSn">
-                            <rect key="frame" x="0.0" y="0.0" width="375" height="902"/>
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="983"/>
                             <subviews>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Xpp-Os-OsR">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="905"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="965"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PLAN DE ESTUDIOS PARA ALUMNOS DE TIEMPO COMPLETO" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cs1-ZH-aal">
                                             <rect key="frame" x="8" y="5" width="359" height="45.5"/>
@@ -96,10 +96,23 @@
                                                 <constraint firstAttribute="height" constant="243" id="7CA-12-hTs"/>
                                             </constraints>
                                         </tableView>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UY1-tj-wEf">
+                                            <rect key="frame" x="8" y="905" width="359" height="30"/>
+                                            <color key="backgroundColor" red="0.1176470588" green="0.30588235289999999" blue="0.63137254899999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="30" id="hjl-Gm-HYU"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" name="GillSans-BoldItalic" family="Gill Sans" pointSize="18"/>
+                                            <state key="normal" title="Visualizar plan de estudios en PDF">
+                                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            </state>
+                                            <connections>
+                                                <action selector="actionPDF:" destination="-1" eventType="touchUpInside" id="fE6-Tc-lcO"/>
+                                            </connections>
+                                        </button>
                                     </subviews>
                                     <constraints>
                                         <constraint firstItem="9bO-Nt-y45" firstAttribute="top" secondItem="4vS-Uh-4nG" secondAttribute="bottom" constant="20" id="110-rZ-uVd"/>
-                                        <constraint firstAttribute="bottom" secondItem="Wy9-ug-AqL" secondAttribute="bottom" constant="20" id="3DA-qW-HAJ"/>
                                         <constraint firstItem="Cs1-ZH-aal" firstAttribute="leading" secondItem="Xpp-Os-OsR" secondAttribute="leading" constant="8" id="41I-Vg-obm"/>
                                         <constraint firstAttribute="trailing" secondItem="9bO-Nt-y45" secondAttribute="trailing" constant="8" id="5ih-cO-Hfj"/>
                                         <constraint firstItem="ufS-8x-dnS" firstAttribute="leading" secondItem="Xpp-Os-OsR" secondAttribute="leading" constant="8" id="6og-DZ-zqj"/>
@@ -107,16 +120,20 @@
                                         <constraint firstItem="4vS-Uh-4nG" firstAttribute="leading" secondItem="Xpp-Os-OsR" secondAttribute="leading" id="Bdm-bi-p17"/>
                                         <constraint firstItem="4vS-Uh-4nG" firstAttribute="top" secondItem="ufS-8x-dnS" secondAttribute="bottom" constant="20" id="HtS-Dv-kqC"/>
                                         <constraint firstItem="Wy9-ug-AqL" firstAttribute="top" secondItem="9bO-Nt-y45" secondAttribute="bottom" constant="40" id="LXJ-a8-d5B"/>
+                                        <constraint firstItem="UY1-tj-wEf" firstAttribute="top" secondItem="Wy9-ug-AqL" secondAttribute="bottom" constant="20" id="MPR-Ix-F8N"/>
                                         <constraint firstAttribute="trailing" secondItem="ufS-8x-dnS" secondAttribute="trailing" constant="8" id="Qhw-2q-1DG"/>
+                                        <constraint firstAttribute="trailing" secondItem="UY1-tj-wEf" secondAttribute="trailing" constant="8" id="Thb-sL-kgw"/>
                                         <constraint firstItem="r8M-vW-o69" firstAttribute="top" secondItem="Cs1-ZH-aal" secondAttribute="bottom" constant="20" id="WTe-Tk-cq5"/>
                                         <constraint firstItem="ufS-8x-dnS" firstAttribute="top" secondItem="r8M-vW-o69" secondAttribute="bottom" constant="20" id="XBa-wb-Uyk"/>
                                         <constraint firstItem="r8M-vW-o69" firstAttribute="leading" secondItem="Xpp-Os-OsR" secondAttribute="leading" id="YIN-JG-1VA"/>
                                         <constraint firstAttribute="trailing" secondItem="Cs1-ZH-aal" secondAttribute="trailing" constant="8" id="YIt-CG-0il"/>
                                         <constraint firstItem="9bO-Nt-y45" firstAttribute="leading" secondItem="Xpp-Os-OsR" secondAttribute="leading" constant="8" id="gee-df-Koa"/>
                                         <constraint firstAttribute="trailing" secondItem="Wy9-ug-AqL" secondAttribute="trailing" id="jVC-mY-hoB"/>
+                                        <constraint firstItem="UY1-tj-wEf" firstAttribute="leading" secondItem="Xpp-Os-OsR" secondAttribute="leading" constant="8" id="jwT-Cm-kif"/>
                                         <constraint firstAttribute="trailing" secondItem="r8M-vW-o69" secondAttribute="trailing" id="oY2-vG-LwD"/>
                                         <constraint firstItem="Cs1-ZH-aal" firstAttribute="top" secondItem="Xpp-Os-OsR" secondAttribute="top" constant="5" id="riG-9E-ecE"/>
                                         <constraint firstItem="Wy9-ug-AqL" firstAttribute="leading" secondItem="Xpp-Os-OsR" secondAttribute="leading" id="tDj-vm-4mr"/>
+                                        <constraint firstAttribute="bottom" secondItem="UY1-tj-wEf" secondAttribute="bottom" constant="30" id="u4G-pG-3tE"/>
                                     </constraints>
                                 </view>
                             </subviews>
@@ -162,7 +179,7 @@
                 <constraint firstItem="vYs-QL-5G2" firstAttribute="top" secondItem="H4U-EQ-E3v" secondAttribute="bottom" constant="16" id="ycy-s0-f1m"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-            <point key="canvasLocation" x="24.5" y="208"/>
+            <point key="canvasLocation" x="24.5" y="248.5"/>
         </view>
     </objects>
 </document>

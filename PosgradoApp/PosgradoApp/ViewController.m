@@ -14,7 +14,9 @@
 #import "TablaMaestriaViewController.h"
 #import "FisicaIndustrialViewController.h"
 #import "DoctoradoFisicaIndustrialViewController.h"
-@interface ViewController () <MenuSeleccionDelegate, MenuViewControllerDelegate>
+#import "MaestriaPlanEstudiosViewController.h"
+
+@interface ViewController () <MenuSeleccionDelegate, MenuViewControllerDelegate, PDFControllerDelegate>
 
 @property (weak, nonatomic) IBOutlet UIView *barraPrincipal;
 @property (weak, nonatomic) IBOutlet UIView *vistaPrincipal;
@@ -86,7 +88,7 @@
     if([controller isKindOfClass:[TablaMaestriaViewController class]]) {
         [(TablaMaestriaViewController *)controller setDelegado:self];
     }
-    
+
     if([controller isKindOfClass:[FisicaIndustrialViewController class]]) {
         self.menuController.identifier = @"maestria";
         [self.menuController cambiarArrayMenu:nil withIdentifier:@"maestria"];
@@ -103,8 +105,15 @@
     [self.navigationCustom pushViewController:controller animated:YES];
 }
 
+- (void)presentarControllerPDF:(UIViewController *)controller {
+    [self presentarControllerPDF:controller];
+}
+
 - (void)cambiarViewController:(UIViewController *)controller {
     [self.controllerPanel toggleLeftPanel:nil];
+    if([controller isKindOfClass:[MaestriaPlanEstudiosViewController class]]) {
+        ((MaestriaPlanEstudiosViewController *)controller).delegado = self;
+    }
     [self.navigationCustom pushViewController:controller animated:YES];
 }
 
@@ -133,6 +142,10 @@
     activityVC.excludedActivityTypes = excludeActivities;
     
     [self presentViewController:activityVC animated:YES completion:nil];
+}
+
+- (void)presentarPDFController:(UIViewController *)controller {
+    [self presentViewController:controller animated:YES completion:nil];
 }
 
 @end

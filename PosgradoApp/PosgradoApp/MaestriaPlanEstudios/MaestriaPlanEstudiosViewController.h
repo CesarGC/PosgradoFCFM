@@ -8,6 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
+@protocol PDFControllerDelegate <NSObject>
+
+-(void) presentarPDFController:(UIViewController *)controller;
+
+@end
+
 @interface MaestriaPlanEstudiosViewController : UIViewController
+
+@property (strong, nonatomic) id <PDFControllerDelegate> delegado;
 
 @end

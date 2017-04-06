@@ -71,8 +71,15 @@
 		63B35C581E53CA61008F5BE3 /* MaestriaProcesosAdministrativosViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63B35C561E53CA61008F5BE3 /* MaestriaProcesosAdministrativosViewController.xib */; };
 		63B35C5D1E53CD57008F5BE3 /* MaestriaPerfilesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B35C5B1E53CD57008F5BE3 /* MaestriaPerfilesViewController.m */; };
 		63B35C5E1E53CD57008F5BE3 /* MaestriaPerfilesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63B35C5C1E53CD57008F5BE3 /* MaestriaPerfilesViewController.xib */; };
+		63B403A21E943B5B006FC5F4 /* MaestriaPDFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B403A01E943B5B006FC5F4 /* MaestriaPDFViewController.m */; };
+		63B403A31E943B5B006FC5F4 /* MaestriaPDFViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63B403A11E943B5B006FC5F4 /* MaestriaPDFViewController.xib */; };
+		63B403A51E94414D006FC5F4 /* demo.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 63B403A41E94414D006FC5F4 /* demo.pdf */; };
 		63C4B5561E6F642B00018293 /* MaestriaPlanCompletoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C4B5541E6F642B00018293 /* MaestriaPlanCompletoTableViewCell.m */; };
 		63C4B5571E6F642B00018293 /* MaestriaPlanCompletoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63C4B5551E6F642B00018293 /* MaestriaPlanCompletoTableViewCell.xib */; };
+		63CA65F91E96E4F3006006C6 /* DoctoradoPlanSemestreTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 63CA65F71E96E4F3006006C6 /* DoctoradoPlanSemestreTableViewCell.m */; };
+		63CA65FA1E96E4F3006006C6 /* DoctoradoPlanSemestreTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63CA65F81E96E4F3006006C6 /* DoctoradoPlanSemestreTableViewCell.xib */; };
+		63CA65FE1E96E7D2006006C6 /* DoctoradoPlanCompletoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 63CA65FC1E96E7D2006006C6 /* DoctoradoPlanCompletoTableViewCell.m */; };
+		63CA65FF1E96E7D2006006C6 /* DoctoradoPlanCompletoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63CA65FD1E96E7D2006006C6 /* DoctoradoPlanCompletoTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -194,9 +201,19 @@
 		63B35C5A1E53CD57008F5BE3 /* MaestriaPerfilesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MaestriaPerfilesViewController.h; path = MaestriaPerfiles/MaestriaPerfilesViewController.h; sourceTree = "<group>"; };
 		63B35C5B1E53CD57008F5BE3 /* MaestriaPerfilesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MaestriaPerfilesViewController.m; path = MaestriaPerfiles/MaestriaPerfilesViewController.m; sourceTree = "<group>"; };
 		63B35C5C1E53CD57008F5BE3 /* MaestriaPerfilesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MaestriaPerfilesViewController.xib; path = MaestriaPerfiles/MaestriaPerfilesViewController.xib; sourceTree = "<group>"; };
+		63B4039F1E943B5B006FC5F4 /* MaestriaPDFViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MaestriaPDFViewController.h; path = MaestriaPlanEstudios/MaestriaPDFViewController.h; sourceTree = "<group>"; };
+		63B403A01E943B5B006FC5F4 /* MaestriaPDFViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MaestriaPDFViewController.m; path = MaestriaPlanEstudios/MaestriaPDFViewController.m; sourceTree = "<group>"; };
+		63B403A11E943B5B006FC5F4 /* MaestriaPDFViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MaestriaPDFViewController.xib; path = MaestriaPlanEstudios/MaestriaPDFViewController.xib; sourceTree = "<group>"; };
+		63B403A41E94414D006FC5F4 /* demo.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = demo.pdf; path = MaestriaPlanEstudios/demo.pdf; sourceTree = "<group>"; };
 		63C4B5531E6F642B00018293 /* MaestriaPlanCompletoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MaestriaPlanCompletoTableViewCell.h; path = MaestriaPlanEstudios/MaestriaPlanCompletoTableViewCell.h; sourceTree = "<group>"; };
 		63C4B5541E6F642B00018293 /* MaestriaPlanCompletoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MaestriaPlanCompletoTableViewCell.m; path = MaestriaPlanEstudios/MaestriaPlanCompletoTableViewCell.m; sourceTree = "<group>"; };
 		63C4B5551E6F642B00018293 /* MaestriaPlanCompletoTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MaestriaPlanCompletoTableViewCell.xib; path = MaestriaPlanEstudios/MaestriaPlanCompletoTableViewCell.xib; sourceTree = "<group>"; };
+		63CA65F61E96E4F3006006C6 /* DoctoradoPlanSemestreTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DoctoradoPlanSemestreTableViewCell.h; path = Doctorado/DoctoradoPlanEstudios/DoctoradoPlanSemestreTableViewCell.h; sourceTree = "<group>"; };
+		63CA65F71E96E4F3006006C6 /* DoctoradoPlanSemestreTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DoctoradoPlanSemestreTableViewCell.m; path = Doctorado/DoctoradoPlanEstudios/DoctoradoPlanSemestreTableViewCell.m; sourceTree = "<group>"; };
+		63CA65F81E96E4F3006006C6 /* DoctoradoPlanSemestreTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DoctoradoPlanSemestreTableViewCell.xib; path = Doctorado/DoctoradoPlanEstudios/DoctoradoPlanSemestreTableViewCell.xib; sourceTree = "<group>"; };
+		63CA65FB1E96E7D2006006C6 /* DoctoradoPlanCompletoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DoctoradoPlanCompletoTableViewCell.h; path = Doctorado/DoctoradoPlanEstudios/DoctoradoPlanCompletoTableViewCell.h; sourceTree = "<group>"; };
+		63CA65FC1E96E7D2006006C6 /* DoctoradoPlanCompletoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DoctoradoPlanCompletoTableViewCell.m; path = Doctorado/DoctoradoPlanEstudios/DoctoradoPlanCompletoTableViewCell.m; sourceTree = "<group>"; };
+		63CA65FD1E96E7D2006006C6 /* DoctoradoPlanCompletoTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DoctoradoPlanCompletoTableViewCell.xib; path = Doctorado/DoctoradoPlanEstudios/DoctoradoPlanCompletoTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -359,6 +376,12 @@
 		63742B801E565CFB006E95CE /* DoctoradoPlanEstudios */ = {
 			isa = PBXGroup;
 			children = (
+				63CA65FB1E96E7D2006006C6 /* DoctoradoPlanCompletoTableViewCell.h */,
+				63CA65FC1E96E7D2006006C6 /* DoctoradoPlanCompletoTableViewCell.m */,
+				63CA65FD1E96E7D2006006C6 /* DoctoradoPlanCompletoTableViewCell.xib */,
+				63CA65F61E96E4F3006006C6 /* DoctoradoPlanSemestreTableViewCell.h */,
+				63CA65F71E96E4F3006006C6 /* DoctoradoPlanSemestreTableViewCell.m */,
+				63CA65F81E96E4F3006006C6 /* DoctoradoPlanSemestreTableViewCell.xib */,
 				63742B981E5661E8006E95CE /* DoctoradoPlanEstudiosViewController.h */,
 				63742B991E5661E8006E95CE /* DoctoradoPlanEstudiosViewController.m */,
 				63742B9A1E5661E8006E95CE /* DoctoradoPlanEstudiosViewController.xib */,
@@ -517,6 +540,7 @@
 		639FD4B11E4A99850047A1D5 /* MaestriaPlanEstudios */ = {
 			isa = PBXGroup;
 			children = (
+				63B403A41E94414D006FC5F4 /* demo.pdf */,
 				639FD4B21E4A99E80047A1D5 /* MaestriaPlanEstudiosViewController.h */,
 				639FD4B31E4A99E80047A1D5 /* MaestriaPlanEstudiosViewController.m */,
 				639FD4B41E4A99E80047A1D5 /* MaestriaPlanEstudiosViewController.xib */,
@@ -526,6 +550,9 @@
 				63854E981E72186700801A59 /* MaestraPlanSemestreTableViewCell.h */,
 				63854E991E72186700801A59 /* MaestraPlanSemestreTableViewCell.m */,
 				63854E9A1E72186700801A59 /* MaestraPlanSemestreTableViewCell.xib */,
+				63B4039F1E943B5B006FC5F4 /* MaestriaPDFViewController.h */,
+				63B403A01E943B5B006FC5F4 /* MaestriaPDFViewController.m */,
+				63B403A11E943B5B006FC5F4 /* MaestriaPDFViewController.xib */,
 			);
 			name = MaestriaPlanEstudios;
 			sourceTree = "<group>";
@@ -719,6 +746,8 @@
 				63A65ACF1E381F0F000C8AF4 /* MapaPosgradoViewController.xib in Resources */,
 				638052721E2848DA0081E143 /* MainTableViewCell.xib in Resources */,
 				63B35C521E53C1D2008F5BE3 /* MaestriaProfesoresTableViewCell.xib in Resources */,
+				63CA65FA1E96E4F3006006C6 /* DoctoradoPlanSemestreTableViewCell.xib in Resources */,
+				63CA65FF1E96E7D2006006C6 /* DoctoradoPlanCompletoTableViewCell.xib in Resources */,
 				638FEEDA1E035418006A0BE8 /* FisicaIndustrialViewController.xib in Resources */,
 				63B35C4C1E53BB02008F5BE3 /* MaestriaProfesoresViewController.xib in Resources */,
 				63854E9C1E72186700801A59 /* MaestraPlanSemestreTableViewCell.xib in Resources */,
@@ -744,8 +773,10 @@
 				63742B921E5661CD006E95CE /* DoctoradoProfesoresViewController.xib in Resources */,
 				638FEEE41E036153006A0BE8 /* MenuTableViewCell.xib in Resources */,
 				63C4B5571E6F642B00018293 /* MaestriaPlanCompletoTableViewCell.xib in Resources */,
+				63B403A31E943B5B006FC5F4 /* MaestriaPDFViewController.xib in Resources */,
 				63742B7E1E565C0A006E95CE /* DoctoradoObjetivosViewController.xib in Resources */,
 				63476B571E00C0D10031F295 /* MainViewController.xib in Resources */,
+				63B403A51E94414D006FC5F4 /* demo.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -785,12 +816,14 @@
 				63742B7D1E565C0A006E95CE /* DoctoradoObjetivosViewController.m in Sources */,
 				63476B5C1E00C2A50031F295 /* MainCollectionViewCell.m in Sources */,
 				639FD4B51E4A99E80047A1D5 /* MaestriaPlanEstudiosViewController.m in Sources */,
+				63B403A21E943B5B006FC5F4 /* MaestriaPDFViewController.m in Sources */,
 				63742B961E5661D8006E95CE /* DoctoradoProcesosAdministrativosViewController.m in Sources */,
 				63A65ACE1E381F0F000C8AF4 /* MapaPosgradoViewController.m in Sources */,
 				63742B9C1E5661E8006E95CE /* DoctoradoPlanEstudiosViewController.m in Sources */,
 				63B35C4B1E53BB02008F5BE3 /* MaestriaProfesoresViewController.m in Sources */,
 				63C4B5561E6F642B00018293 /* MaestriaPlanCompletoTableViewCell.m in Sources */,
 				63742B8C1E5661BC006E95CE /* DoctoradoRequisitosViewController.m in Sources */,
+				63CA65F91E96E4F3006006C6 /* DoctoradoPlanSemestreTableViewCell.m in Sources */,
 				638052711E2848DA0081E143 /* MainTableViewCell.m in Sources */,
 				63476B211E00BC920031F295 /* main.m in Sources */,
 				638FEEE31E036153006A0BE8 /* MenuTableViewCell.m in Sources */,
@@ -803,6 +836,7 @@
 				63A8B80C1E8490630024C207 /* ContactoViewController.m in Sources */,
 				638FEECC1E034124006A0BE8 /* UIViewController+JASidePanel.m in Sources */,
 				639BF0021E2ED6C800CD3437 /* TablaMaestriaViewController.m in Sources */,
+				63CA65FE1E96E7D2006006C6 /* DoctoradoPlanCompletoTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
